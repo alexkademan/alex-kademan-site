@@ -4,22 +4,42 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title @text="title || metadata.title"></title>
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
 		<meta name="description" :content="description || metadata.description">
 		<meta name="generator" :content="eleventy.generator">
-
+		<link rel="stylesheet" href="/css/reset.css" webc:keep>
 		<!--- This is rolled into the bundle. --->
-		<link rel="stylesheet" href="css/base.css">
-
+		<link rel="stylesheet" href="/css/base.css" webc:keep>
 		<style webc:keep @raw="getBundle('css')"></style>
+
+		
 	</head>
 	<body>
-		<header>
-			<a href="/"><strong @text="metadata.title"></strong></a>
+		<header class="main-header">
+			<nav class="main-column-wide">
+				<div class="left">
+					<a href="/" class="home">
+						<object data="/svg/alexkademan-bg6.svg" type="image/svg+xml"></object>
+					</a>
+					<ul class="main-nav">
+						<li><a href="work.webc">Work</a></li>
+						<li><a href="resume.webc">Résumé</a></li>
+						<li><a href="index.webc">Contact</a></li>
+					</ul>
+				</div>
+
+				<!-- <div class="right">
+					<a href="#">the thing</a>
+				</div> -->
+			</nav>
 		</header>
+	
+		<!-- <h1 class="main-column" @text="metadata.description"></h1> -->
 
-		<main @raw="content"></main>
+		<main @raw="content" class="main-column"></main>
 
-		<footer>
+		<footer class="main-column">
 			©<span webc:nokeep @text="(new Date()).getFullYear()"></span>
 			Built with <a href="https://www.11ty.dev/">Eleventy</a>.
 			<a href="https://github.com/11ty/eleventy-base-webc">Source code on GitHub</a>.
@@ -28,3 +48,20 @@
 		<script type="module" webc:keep @raw="getBundle('js')"></script>
 	</body>
 </html>
+
+<script>
+
+	
+	console.log(window.location.href.substring(0, window.location.href.lastIndexOf("/")));
+
+	console.log(window.location.href);
+
+	console.log(document.URL.substr(0,document.URL.lastIndexOf('/')));
+
+	console.log(window.location.origin);
+	console.log(window.location.pathname);
+
+	const pathName = window.location.pathname;
+	console.log(pathName.replace(/\/+$/, ""));
+	
+</script>

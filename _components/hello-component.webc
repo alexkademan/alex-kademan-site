@@ -1,1 +1,1 @@
-<p>Hello <span @text="place"></span>.</p>
+	Hello <span @text="place"></span>. This is a test of what I'm setting up.

@@ -5,7 +5,9 @@ const pkg = require("../package.json");
 
 export default {
 	// Feel free to override these, they are pulling from package.json for default values.
-	title: "Eleventy Base WebC" || pkg.name,
+	title: "Alex Kademan" || pkg.name,
 	description: "" || pkg.description,
 	language: "en",
+	url: "alexkademan.site",
+	email: "alexkademan.@gmail"
 };

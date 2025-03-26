@@ -1,0 +1,10 @@
+---js
+function permalink(data) {
+	return "/work/";
+}
+---
+<p>this is the work page that I have installed to the website.....</p>
+
+<hello-component place="world"></hello-component>
+
+<p><a href="index.webc">Go back</a>.</p>
