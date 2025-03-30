@@ -1,7 +1,7 @@
 {
-	"name": "@11ty/eleventy-base-webc",
+	"name": "Alex Kademan",
 	"version": "1.0.0",
-	"description": "A minimalist bare-bones starter project using Eleventy and WebC.",
+	"description": "A promotional website made by and for Alex Kademan.",
 	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
@@ -35,6 +35,7 @@
 		"@11ty/eleventy-plugin-webc": "^0.11.2"
 	},
 	"dependencies": {
+		"@11ty/eleventy-img": "^6.0.1",
 		"@11ty/is-land": "^4.0.0",
 		"clean-css": "^5.3.3"
 	}

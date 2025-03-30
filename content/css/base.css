@@ -29,6 +29,18 @@
 }
 
 @font-face {
+	font-family: lato-italic;
+	src: url('/fonts/Lato-LightItalic.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: lato-black;
+	src: url('/fonts/Lato-Black.woff2') format('woff2');
+	font-display: swap;
+}
+
+@font-face {
 	font-family: display;
 	src: url('/fonts/DMSerifDisplay-Regular.woff2') format('woff2');
 	/* src: url('/fonts/Lato-Bold.woff2') format('woff2'); */
@@ -47,30 +59,20 @@ body {
 	font-size: 1.1em;
 	line-height: 1.4em;
 	color: var(--deep-slate-blue);
-	background-color: var(--antique-white);
+	background-color: var(--deep-slate-blue);
 }
 html {
 	overflow-y: scroll;
-}
-.main-column,
-.main-column-wide {
-	padding: .5rem 1rem;
-	margin: 0 auto;
-	max-width: 60rem;
-}
-
-.main-column-wide {
-	max-width: 80rem;
-}
-
-footer {
-	font-style: italic;
-	font-size: 0.9375em; /* 15px /16 */
 }
 
 a,
 a:visited {
 	color: var(--terra-cotta);
+	transition: color .25s ease-out allow-discrete;
+}
+
+a:hover {
+	color: var(--muted-sage-green);
 }
 
 h1,
@@ -94,11 +96,13 @@ h2 {
 }
 h3,
 h4 {
+	font-family: lato-black;
 	font-size: 1.6em;
 }
 
 h5,
 h6 {
+	font-family: lato-black;
 	font-size: 1.4em;
 }
 
@@ -108,11 +112,46 @@ p {
 	line-height: 1.6em;
 }
 
+em,
+i {
+	font-family: lato-italic;
+}
+
+footer {
+	font-size: smaller;
+}
+
+.white-bg {
+	background: white;
+	min-height: 70vh;
+}
+
+.main-column,
+.main-column-wide {
+	padding: .5rem 1rem;
+	margin: 0 auto;
+	max-width: 40rem;
+	position: relative;
+}
+
+.main-column img,
+.main-column-wide img {
+	max-width: 100%;
+	height: auto;
+}
+
+.main-column-wide {
+	max-width: 80rem;
+}
+
+.main-header,
+.white-bg {
+	border-bottom: .25em solid var(--muted-sage-green);
+}
 .main-header {
 	display: block;
 	width: 100%;
 	background-color: var(--deep-slate-blue);
-	border-bottom: .25em solid var(--muted-sage-green);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-x: left;
@@ -149,6 +188,10 @@ p {
 	}
 }
 
+.main-header .home object svg {
+	fill: white;
+}
+
 
 .main-header .main-column-wide {
 	display: grid;
@@ -168,12 +211,88 @@ p {
 	float: left;
 	clear: none;
 	padding: .3em .5em .75em;
-	transition: color 0.25s ease-out allow-discrete;
+	transition: color .25s ease-out allow-discrete;
 	animation-name: fadeInLink;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration:.5s;
 	/* animation-delay: 250ms; */
+}
+
+.main-header .main-column-wide .main-nav a:hover {
+	/* background-color: var(--terra-cotta); */
+	color: var(--deep-slate-blue);
+	color: var(--antique-white);
+}
+
+.main-header .main-column-wide .main-nav a .selected,
+.main-header .main-column-wide .main-nav a .not-selected {
+	padding-bottom: .25em;
+}
+
+.main-header .main-column-wide .main-nav a .not-selected {
+	border-color: transparent;
+}
+
+
+.main-header .main-column-wide .main-nav a .selected {
+	color: var(--antique-white);
+	border-bottom: 1px solid  var(--antique-white);
+}
+
+.main-footer {
+	min-height: 9rem;
+	padding-top: .8em;
+	color: var(--terra-cotta);
+}
+
+.footer-icon {
+	display: grid;
+	width: 100%;
+	grid-template-columns: auto auto 3em;
+	grid-gap: 1.5em; 
+}
+
+.footer-icon div,
+.footer-icon span {
+	align-self: center;
+	justify-self: center;
+	align-self: center;
+	place-self: center stretch;
+}
+
+.footer-icon .left > span,
+.footer-icon .right > span {
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: var(--terra-cotta);
+	opacity: .5;
+	padding: 0 3em;
+	
+}
+
+.footer-ak-icon {
+	width: 3em;
+}
+
+.footer-ak-icon .circle-outer {
+	opacity:.7;
+	transition: fill .8s ease-out allow-discrete;
+}
+
+.footer-ak-icon .circle-inner {
+	transition: fill .2s ease-out allow-discrete;
+}
+
+.footer-ak-icon .circle-outer,
+.footer-ak-icon .circle-inner {
+	fill: var(--terra-cotta);
+}
+
+.footer-ak-icon:hover .circle-outer,
+.footer-ak-icon:hover .circle-inner {
+	fill: var(--muted-sage-green);
 }
 
 @keyframes fadeInLink {
@@ -185,13 +304,6 @@ p {
 	}
 }
 
-
-
-.main-header .main-column-wide .main-nav a:hover {
-	/* background-color: var(--terra-cotta); */
-	color: var(--deep-slate-blue);
-	color: var(--antique-white);
-}
 
 @media only screen and (min-width: 800px) {
 	.main-header .home {

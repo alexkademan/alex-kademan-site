@@ -1,10 +1,10 @@
 ---js
 function permalink(data) {
-	return "/resume/";
+	return "/work/web/";
 }
-let section = "resume";
+let section = "work";
 ---
-<h1>Resume</h1>
+<p>Websites that I have done.</p>
 
 <hello-component place="world"></hello-component>
 

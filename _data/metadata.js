@@ -5,9 +5,9 @@ const pkg = require("../package.json");
 
 export default {
 	// Feel free to override these, they are pulling from package.json for default values.
-	title: "Alex Kademan" || pkg.name,
+	title: "" || pkg.name,
 	description: "" || pkg.description,
 	language: "en",
-	url: "alexkademan.site",
-	email: "alexkademan.@gmail"
+	url: "http://alexkademan.site",
+	email: "alexkademan@gmail"
 };
