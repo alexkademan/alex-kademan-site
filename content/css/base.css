@@ -19,7 +19,8 @@
 }
 ::selection {
 	color: var(--antique-white);
-	background: var(--muted-sage-green);
+	color: white;
+	background: var(--terra-cotta);
 }
 
 @font-face {
@@ -145,9 +146,8 @@ footer {
 	max-width: 80rem;
 }
 
-.main-header,
-.white-bg {
-	/* border-bottom: .25em solid var(--muted-sage-green); */
+.main-header {
+	border-bottom: .25em solid var(--muted-sage-green);
 }
 .main-header {
 	display: block;
@@ -250,8 +250,28 @@ footer {
 .footer-icon {
 	display: grid;
 	width: 100%;
-	grid-template-columns: auto auto 3em;
+	grid-template-columns: auto 3em;
 	grid-gap: 1.5em; 
+}
+
+.main-footer .copyright {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-columns: 1fr auto;
+	gap: .25em;
+	align-content: space-evenly;
+}
+
+.main-footer .copyright .title {
+	margin-top: -.2em;
+}
+.main-footer .copyright .title,
+.main-footer .copyright .contact-icons {
+	display: inline;
+	width: auto;
+	margin-right: .125em;
+	padding: 0;
+	line-height: 1em;
 }
 
 .footer-icon div,
@@ -261,17 +281,6 @@ footer {
 	align-self: center;
 	place-self: center stretch;
 }
-
-/* .footer-icon .left > span,
-.footer-icon .right > span {
-	display: block;
-	width: 100%;
-	height: 1px;
-	background-color: var(--terra-cotta);
-	opacity: .3;
-	padding: 0 3em;
-	
-} */
 
 .footer-ak-icon {
 	width: 3em;
@@ -294,6 +303,48 @@ footer {
 .footer-ak-icon:hover .circle-outer,
 .footer-ak-icon:hover .circle-inner {
 	fill: var(--deep-slate-blue);
+}
+
+.footer-icon .contact-icons {
+	display: inline-block;
+	fill: var(--terra-cotta);
+	margin: 0;
+}
+
+.footer-icon .contact-icons a,
+.footer-icon .contact-icons a:visited {
+	display: inline-block;
+	position: relative;
+	border: none;
+	border-radius: 100%;
+	background-color: transparent;
+	background-color: var(--antique-white);
+	transition: all .2s ease-in-out;
+	margin-right: .125em;
+	/* padding: 2em; */
+	width: 1.7em;
+	height: 1.7em;
+}
+
+.footer-icon .contact-icons a:hover {
+	fill: white;
+	background-color: var(--terra-cotta);
+}
+
+.footer-icon .contact-icons a svg {
+	display: inline-block;
+	width: 1em;
+	margin: 0;
+	border: none;
+
+	position: absolute;
+	left: .35em;
+	top: .35em;
+}
+
+.footer-icon .contact-icons a.linkedin svg {
+	left: .35em;
+	top: .3em;
 }
 
 @keyframes fadeInLink {
