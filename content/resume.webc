@@ -2,10 +2,151 @@
 function permalink(data) {
 	return "/resume/";
 }
+let title = "Alex Kademan";
 let section = "resume";
 ---
-<h1>Resume</h1>
+<article class="resume resume-sheet">
+	<section class="heading">
+		<h1 @raw="title" class="name"></h1>
+		<h3 class="job-title">Web Designer <span class="bullet">•</span> Milwaukee, WI</h3>
+	</section>
+	<section class="summary">
+		<h2>About Me</h2>
+		<p>
+			Graphic Designer with over eighteen years of experience in print and web design. Skilled in Adobe Illustrator, InDesign and Photoshop as well as Javascript, Node.js, React, HTML5, CSS3, PHP and MySQL. Always looking to learn more about the changing landscape of web development. Expert in visual design, with a Bachelor of Arts focused in Graphic Design and Typography from the University of Wisconsin-Milwaukee.
+		</p>
+	</section>
+	<section class="experience">
+		<h2>Experience</h2>
+		<ol class="timeline">
+			<li class="job">
+				<hgroup>
+					<small class="time">May 2020 - Present</small>
+					<h3>Web/Graphic Designer</h3>
+					<h4>Smart Living Home &amp; Garden <span class="bullet">•</span> Remote</h4>
+				</hgroup>
+				<ul class="tasks">
+					<li>Build e-commerce website arm of the business using different shopping cart CMS software over time.</li>
+					<li>Write and maintain all custom javascript, PHP and custom template files for website, both front end and back.</li>
+					<li>MySQL maintenance and troubleshooting.</li>
+					<li>Logo design.</li>
+					<li>Packaging design and pre-press.</li>
 
-<hello-component place="world"></hello-component>
+				</ul>
+			</li>
+			<li class="job">
+				<hgroup>
+					<small class="time">June 2006 - May 2020</small>
+					<h3>Web/Graphic Designer</h3>
+					<h4>Modus Design, Inc. <span class="bullet">•</span> Milwaukee</h4>
+				</hgroup>
+				<ul class="tasks">
+					<li>Build e-commerce website arm of the business using different shopping cart CMS software over time.</li>
+					<li>Write and maintain all custom javascript, PHP and custom template files for website, both front end and back.</li>
+					<li>MySQL maintenance and troubleshooting.</li>
+					<li>Logo design.</li>
+					<li>Packaging design and pre-press.</li>
 
-<p><a href="index.webc">Go back</a>.</p>
+				</ul>
+			</li>
+		</ol>
+	</section>
+
+	<section class="education">
+		<h2>Education</h2>
+	</section>
+</article>
+
+<style>
+
+	.resume-sheet {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5em;
+	}
+
+	.resume-sheet .heading {
+		h1,
+		h3 {
+			padding-bottom: 0;
+		}
+	}
+
+	.resume-sheet p:last-child {
+		padding-bottom: 0;
+	}
+	
+	.job-title .bullet {
+		font-family: lato;
+	}
+
+	.timeline {
+		display: block;
+		margin: .5em 1em 0 1em;
+		padding-left: 1.75em;
+
+		border-left: 1px var(--terra-cotta) solid;
+
+		/* background-color: #CCC; */
+		/* border-radius: 10px 0 0 0; */
+	}
+
+	.timeline .bullet {
+		font-size: smaller;
+		color: #CCC;
+	}
+
+	.timeline .job {
+		position: relative;
+		margin-bottom: 1.5em;
+	}
+
+
+	.timeline .job:last-child {
+		margin-bottom: 0;
+	}
+
+	.timeline .job hgroup {
+		padding: 0 0 .75em;
+	}
+	
+	.timeline .job::before {
+		position: absolute;
+		top: 0;
+		left: -2.4em;
+		content: "";
+		display: block;
+		width: 1.2em;
+		height: 1.2em;
+		border-radius: 2em;
+		background-color: var(--terra-cotta);
+	}
+
+	.timeline .job .time {
+		font-size: smaller;
+		padding-top: 0;
+		line-height: 0.5em;
+		/* color: var(--terra-cotta); */
+	}
+
+	.timeline .job h3 {
+		padding: 0;
+	}
+
+	.timeline .job h4 {
+		font-family: lato;
+		font-size: 1.0em;
+
+	}
+
+	.timeline .tasks {
+		padding: 0 0 0 1.25em;
+		list-style-type: circle;
+		list-style-type: disc;
+	}
+
+	.timeline .tasks li {
+		padding-bottom: .5em;
+	}
+
+</style>
