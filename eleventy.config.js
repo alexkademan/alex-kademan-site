@@ -33,8 +33,10 @@ export default function(eleventyConfig) {
 	});
 
 	eleventyConfig.addPassthroughCopy("./content/fonts/DMSerifDisplay-Regular.woff2");
+	eleventyConfig.addPassthroughCopy("./content/fonts/LibreCaslonText-Bold.woff2");
 	eleventyConfig.addPassthroughCopy("./content/fonts/Lato-Light.woff2");
 	eleventyConfig.addPassthroughCopy("./content/fonts/Lato-LightItalic.woff2");
+	eleventyConfig.addPassthroughCopy("./content/fonts/Lato-Regular.woff2");
 	eleventyConfig.addPassthroughCopy("./content/fonts/Lato-Black.woff2");
 	eleventyConfig.addPassthroughCopy("./content/svg/alexkademan-bg6.svg");
 	eleventyConfig.addPassthroughCopy("./content/svg/ak-logomark.svg");

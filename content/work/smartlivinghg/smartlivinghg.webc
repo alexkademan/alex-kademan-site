@@ -1,0 +1,276 @@
+---js
+function permalink(data) {
+	return "/work/smartlivinghg/";
+}
+let title = "Smart Living Home &amp; Garden";
+let section = "work";
+---
+
+<div class="whole-window whole-width-img">
+	<div class="whole-width-img-container">
+		<img src="/work/smartlivinghg/images/smart-living-laptop.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+
+		<div class="centered-section">
+			<div class="main-column-wide">
+				<h1>Smart Living<br />Home &amp; Garden</h1>
+			</div>
+		</div>
+
+		
+	</div>
+</div>
+
+<div class="main-column-wide">
+	<div class="two-col-grid">
+		<div class="left">
+			<h2>Lead Designer</h2>
+
+			<h1>Web Design,<br />Development,<br />+ Graphic Design</h1>
+			<ul>
+				<li>Branding</li>
+				<li>E-Commerce Theme Development</li>
+				<li>E-Commerce App Customization</li>
+				<li>Packaging Design</li>
+				<li>Print Design Services</li>
+			</ul>
+		</div>
+		<div class="right">
+			<h2>Overview</h2>
+			<p>
+				Smart Living Home &amp; Garden is an online retailer specializing in outdoor decor. I am their head of all things print and web design.
+			</p>
+			<p>
+				I've personally overseen the design and development of their online store as it moved between different e-commerce platforms. 
+			</p>
+			<p>
+				The website has been carefully curated from it's humble beginnings as a neatly crafted PHP application, with a single six mile tall CSS file. Later weathering the wild-west era of warring javascript frameworks, eventually moving to it's existing form as a well optimized, accessable, and responsive e-commerce mainstay.
+			</p>
+		</div>
+
+	</div>
+
+
+	<div class="two-col-img-grid">
+		<span class="wide">
+			<img src="/work/smartlivinghg/images/website-iPad-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" class="wide" />
+		</span>
+		<img src="/work/smartlivinghg/images/website-modals-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+		<img src="/work/smartlivinghg/images/website-pages-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+
+		<div class="wide three-logos">
+			<div class="logo logo-1">
+				<smart-living-logo-white-svg></smart-living-logo-white-svg>
+			</div>
+			<div class="logo logo-2">
+				<smart-living-logo-white-svg></smart-living-logo-white-svg>
+			</div>
+			<div class="logo logo-3">
+				<smart-living-logo-white-svg></smart-living-logo-white-svg>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="two-col-grid">
+		<div class="left">
+			<h2>Print Collateral</h2>
+
+			<h1>
+				Annual Catalog<br />
+				+ Packaging
+			</h1>
+			<ul>
+				<li>Catalog Layout</li>
+				<li>Annual Updates of Catalog</li>
+				<li>Box Layouts + Print Prep.</li>
+			</ul>
+		</div>
+		<div class="right">
+			<h2>Overview</h2>
+			<p>
+				Original design, and annual update to 75+ page catalog.
+			</p>
+			<p>
+				Created all packaging design, and all print collateral for Smart Living Home &amp; Garden since 2020.
+			</p>
+		</div>
+
+	</div>
+
+</div>
+
+<style>
+	.whole-window {
+		display: inline-block;
+		width: 100%;
+	}
+	.whole-width-img-container {
+		display: flex;
+		align-items: bottom;
+		align-items: flex-start;
+		overflow: hidden;
+		max-height: 60em;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.whole-width-img {
+		img {
+			width: 100%;
+			height: auto;
+			margin: auto 0;
+			flex-grow: 1;
+			filter: brightness(70%);
+		}
+
+		.centered-section {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+
+		.main-column-wide {
+			padding-bottom: 0;
+		}
+
+		h1 {
+			color: white;
+			font-family: "display";
+			font-size: 2.5em;
+			line-height: .9em;
+			padding-bottom: .5em;
+			text-shadow: .02em .02em .02em var(--deep-slate-blue), .02em .02em .02em var(--deep-slate-blue), .02em .02em .02em var(--deep-slate-blue), .02em .02em .02em var(--deep-slate-blue);
+
+			text-shadow: 1px 1px 2px black;
+			text-shadow: 2px 2px 6px var(--deep-slate-blue);
+		}
+	}
+	.two-col-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin-top: 1em;
+		padding: 1em 0 1em;
+		border-top: 1px #CCC solid;
+		gap: 3em;
+
+		.left,
+		.right {
+			grid-column: 1 /3;
+		}
+
+		h1 {
+			font-family: "lato-black";
+			padding-bottom: .75em;
+		}
+
+		h2 {
+			font-family: "lato";
+			font-size: .8em;			
+			text-transform: uppercase;
+			letter-spacing: .2em;
+			padding-top: .75em;
+			padding-bottom: 2em;
+		}
+
+		li {
+			line-height: 1.75em;
+			font-family: "lato-regular";
+		}
+	}
+	
+	.two-col-img-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: .25em;
+
+		picture,
+		img {
+			display: block;
+			background-color: #F4F4F4;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	.three-logos {
+		display: grid;
+		gap: .25em;
+		grid-template-columns: 1fr 1fr 1fr;
+		align-items: center;
+
+		.logo {
+			display: table;
+			aspect-ratio: 3/2;
+
+			svg {
+				display: table-cell;
+				vertical-align: middle;
+				width: 55%;
+				/* margin: auto; */
+			}
+		}
+
+		.logo-1 {
+			background-color: rgb(126, 154, 159);
+		}
+		.logo-2 {
+			background-color: rgb(155, 168, 131);
+		}
+		.logo-3 {
+			background-color: rgb(77, 71, 64);
+		}
+	}
+
+	@media only screen and (min-width: 650px) {
+		.two-col-grid {
+			padding-bottom: 4em;
+			gap: 2em;
+
+			.left,
+			.right {
+				grid-column: auto;
+			}
+
+			h2 {
+				padding-bottom: 4em
+			}
+		}
+
+		.whole-width-img h1 {
+			font-size: 3.5em;
+		}
+
+		.two-col-img-grid {
+			grid-template-columns: 1fr 1fr;
+		
+			.wide {
+				grid-column: 1 / 3;
+			}
+		}
+		.two-col-img-grid,
+		.three-logos {
+			gap: .5em;
+		}
+	}
+
+	@media only screen and (min-width: 1200px) {
+		.two-col-grid {
+			padding-bottom: 6em;
+			gap: 8em;
+
+			.left,
+			.right {
+				grid-column: auto;
+			}
+		}
+
+		.whole-width-img h1 {
+			font-size: 5em;
+		}
+		.two-col-img-grid,
+		.three-logos {
+			gap: .75em;
+		}
+	}
+</style>

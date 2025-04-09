@@ -5,10 +5,11 @@ function permalink(data) {
 let title = "Alex Kademan";
 let section = "resume";
 ---
-<article class="resume resume-sheet">
+<article class="resume resume-sheet main-column">
 	<section class="heading">
 		<h1 @raw="title" class="name"></h1>
-		<h3 class="job-title">Web Designer <span class="bullet">•</span> Milwaukee, WI</h3>
+		<p class="job-title">Web Designer <span class="bullet">•</span> Milwaukee, WI</p>
+		<contact-icons></contact-icons>
 	</section>
 	<section class="summary">
 		<h2>About Me</h2>
@@ -20,49 +21,63 @@ let section = "resume";
 		<h2>Experience</h2>
 		<ol class="timeline">
 			<li class="job">
-				<hgroup>
+				<hgroup class="title">
 					<small class="time">May 2020 - Present</small>
 					<h3>Web/Graphic Designer</h3>
 					<h4>Smart Living Home &amp; Garden <span class="bullet">•</span> Remote</h4>
 				</hgroup>
 				<ul class="tasks">
-					<li>Build e-commerce website arm of the business using different shopping cart CMS software over time.</li>
-					<li>Write and maintain all custom javascript, PHP and custom template files for website, both front end and back.</li>
-					<li>MySQL maintenance and troubleshooting.</li>
+					<li>Design, build and maintain e-commerce website using various shopping cart CMS applications.</li>
+					<li>Write and maintain all custom javascript, PHP and template files for website, both front end and back.</li>
+					<li>MySQL oversight and maintenance.</li>
+					<li>Linux Apache web server configuration and management (VPS).</li>
 					<li>Logo design.</li>
 					<li>Packaging design and pre-press.</li>
-
 				</ul>
 			</li>
 			<li class="job">
-				<hgroup>
+				<hgroup class="title">
 					<small class="time">June 2006 - May 2020</small>
 					<h3>Web/Graphic Designer</h3>
 					<h4>Modus Design, Inc. <span class="bullet">•</span> Milwaukee</h4>
 				</hgroup>
 				<ul class="tasks">
-					<li>Build e-commerce website arm of the business using different shopping cart CMS software over time.</li>
-					<li>Write and maintain all custom javascript, PHP and custom template files for website, both front end and back.</li>
-					<li>MySQL maintenance and troubleshooting.</li>
-					<li>Logo design.</li>
-					<li>Packaging design and pre-press.</li>
-
+					<li>Design deploy and oversee multiple e-commerce websites.</li>
+					<li>Wordpress theme development.</li>
+					<li>Jekyll website development.</li>
+					<li>logo design.</li>
+					<li>Package design and pre-press.</li>
+					<li>Design print collateral for marketing purposes.</li>
 				</ul>
 			</li>
 		</ol>
 	</section>
-
 	<section class="education">
 		<h2>Education</h2>
+		<ol class="timeline">
+			<li class="job">
+				<hgroup class="school">
+					<small class="time">Sept 2002 - May 2006</small>
+					<h3>Bachelor of Arts (B.A.), Graphic Design</h3>
+					<h4>University of Wisconsin-Milwaukee</h4>
+				</hgroup>
+			</li>
+
+		</ol>
+	</section>
+	<section class="skills">
+		<h2>Skills</h2>
+		<ul class="skills-list">
+			<skills-icons></skills-icons>
+		</ul>
 	</section>
 </article>
 
 <style>
-
 	.resume-sheet {
 		display: flex;
 		flex-direction: column;
-		gap: 1.5em;
+		gap: 1.25em;
 	}
 
 	.resume-sheet .heading {
@@ -70,25 +85,49 @@ let section = "resume";
 		h3 {
 			padding-bottom: 0;
 		}
+
+		.job-title {
+			padding-bottom: 0;
+
+			.bullet {
+				font-family: lato;
+				color: #CCC;
+			}
+		}
 	}
 
-	.resume-sheet p:last-child {
+	.summary p:last-child {
 		padding-bottom: 0;
-	}
-	
-	.job-title .bullet {
-		font-family: lato;
 	}
 
 	.timeline {
 		display: block;
-		margin: .5em 1em 0 1em;
+		margin: 0 1em 0 .5em;
 		padding-left: 1.75em;
-
 		border-left: 1px var(--terra-cotta) solid;
+		position: relative
+	}
+	
+	.timeline::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: -.5em;
+		background-color: white;
+		width: 1em;
+		height: 2em;
+	}
 
-		/* background-color: #CCC; */
-		/* border-radius: 10px 0 0 0; */
+	.timeline::after {
+		content: "";
+		display: block;
+		position: absolute;
+		bottom: 0;
+		left: -.5em;
+		background-color: white;
+		width: 1em;
+		height: .6em;
 	}
 
 	.timeline .bullet {
@@ -99,38 +138,38 @@ let section = "resume";
 	.timeline .job {
 		position: relative;
 		margin-bottom: 1.5em;
-	}
-
+	} 
 
 	.timeline .job:last-child {
 		margin-bottom: 0;
 	}
 
-	.timeline .job hgroup {
+	.timeline .job .title {
 		padding: 0 0 .75em;
 	}
-	
+
 	.timeline .job::before {
 		position: absolute;
-		top: 0;
-		left: -2.4em;
+		top: 1.85em;
+		left: -2.25em;
 		content: "";
 		display: block;
-		width: 1.2em;
-		height: 1.2em;
+		width: 1em;
+		height: 1em;
 		border-radius: 2em;
 		background-color: var(--terra-cotta);
 	}
 
 	.timeline .job .time {
 		font-size: smaller;
+		display: inline-block;
+		line-height: 1em;
 		padding-top: 0;
-		line-height: 0.5em;
-		/* color: var(--terra-cotta); */
+		padding-bottom: .5em;
 	}
 
 	.timeline .job h3 {
-		padding: 0;
+		padding: 0 0 .125em;
 	}
 
 	.timeline .job h4 {
@@ -147,6 +186,30 @@ let section = "resume";
 
 	.timeline .tasks li {
 		padding-bottom: .5em;
+	}
+
+	.skills-list {
+		display: flex;
+		flex-direction: row;
+		font-size: smaller;
+		align-content: start;
+		gap: .5em;
+	}
+	
+	.skills-list li {
+		display: flex;
+		padding: .125em  .5em;
+		background-color: transparent;
+		border: 1px #CCC solid;
+		border-radius: .25em;
+	}
+
+	.skills-list li svg {
+		display: inline-block;
+		margin-right: .25em;
+		width: 1em;
+		fill: var(--terra-cotta);
+		fill: var(--deep-slate-blue);
 	}
 
 </style>

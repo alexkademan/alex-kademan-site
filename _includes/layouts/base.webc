@@ -36,7 +36,7 @@ let title = "Home";
 		
 		<!-- <h1 class="main-column" @text="metadata.description"></h1> -->
 		<div  @attributes="({ class: section+' white-bg' })">
-			<main @raw="content" class="main-column"></main>
+			<main @raw="content"></main>
 		</div>
 
 		<footer class="main-footer main-column-wide">
