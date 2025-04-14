@@ -1,8 +1,8 @@
 ---js
 function permalink(data) {
-	return "/work/smartlivinghg/";
+	return "/work/cedarcrest/";
 }
-let title = "Smart Living Home &amp; Garden";
+let title = "Cedar Crest Ice Cream";
 let section = "work";
 ---
 

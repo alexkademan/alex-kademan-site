@@ -14,46 +14,82 @@ let section = "work";
 		<div class="grid-title visually-hidden"><h2>Title Here?</h2></div>
 		
 		<div class="work-module">
-			<a href="/work/smartlivinghg/smartlivinghg.webc">
+			<a href="/work/smartlivinghg/smartlivinghg.webc" class="work-link">
 				<div class="img-wrapper">
-					<img src="/work/images/smartlivinghg-01.svg" class="work-image" alt="Smart Living Home &amp; Garden" loading="lazy" />
+					<span class="work-image-back slhg">
+						<link-smartlivinghg-back></link-smartlivinghg-back>
+					</span>
+					<span class="work-image-front">
+						<link-smartlivinghg-front></link-smartlivinghg-front>
+					</span>
 				</div>
 				<h3>Smart Living Home &amp; Garden</h3>
 			</a>
 		</div>
 		<div class="work-module">
-			<a href="#">
+			<a href="#" class="work-link">
 				<div class="img-wrapper">
-					<img src="/work/images/pebblelaneliving-01.jpg" class="work-image" alt="Pebble Lane Living logo" loading="lazy" />
+					<span class="work-image-back pll">
+						<link-pebblelaneliving-back></link-smartlivinghg-back>
+					</span>
+					<span class="work-image-front">
+						<link-pebblelaneliving-front></link-smartlivinghg-front>
+					</span>
 				</div>
 				<h3>Pebble Lane Living</h3>
 			</a>
 		</div>
 		<div class="work-module">
-			<a href="#">
+			<a href="#" class="work-link">
 				<div class="img-wrapper">
-					<img src="/work/images/fountain-fresh-01.jpg" class="work-image" alt="Fountain Fresh + logo" loading="lazy" />
+					<span class="work-image-back ff">
+						<link-fountainfresh-back></link-fountainfresh-back>
+					</span>
+					<span class="work-image-front">
+						<link-fountainfresh-front></link-fountainfresh-front>
+					</span>
 				</div>
 				<h3>Fountain Fresh +</h3>
 			</a>
 		</div>
 		<div class="work-module">
-			<a href="#" class="img-wrapper">
-				<img src="/work/images/sani-t-01.jpg" class="work-image" alt="Sani-T" loading="lazy" />
+			<a href="#" class="work-link">
+				<div class="img-wrapper">
+					<span class="work-image-back sani-t">
+						<link-sani-t-back></link-sani-t-back>
+					</span>
+					<span class="work-image-front">
+						<link-sani-t-front></link-sani-t-front>
+					</span>
+				</div>
+				<h3>Sani-t</h3>
 			</a>
-			<h3>sani-t</h3>
 		</div>
 		<div class="work-module">
-			<a href="#" class="img-wrapper">
-				<img src="/work/images/cedar-crest-01.jpg" class="work-image" alt="Cedar Crest" loading="lazy" />
+			<a href="#" class="work-link">
+				<div class="img-wrapper">
+					<span class="work-image-back cc">
+						<link-cedarcrest-back></link-cedarcrest-back>
+					</span>
+					<span class="work-image-front">
+						<link-cedarcrest-front></link-cedarcrest-front>
+					</span>
+				</div>
+				<h3>Cedar Crest Ice Cream</h3>
 			</a>
-			<h3>Cedar Crest</h3>
 		</div>
 		<div class="work-module">
-			<a href="#" class="img-wrapper">
-				<img src="/work/images/gauthier-01.svg" class="work-image" alt="Gauthier" loading="lazy" />
+			<a href="#" class="work-link">
+				<div class="img-wrapper">
+					<span class="work-image-back gb">
+						<link-gauthier-back></link-gauthier-back>
+					</span>
+					<span class="work-image-front">
+						<link-gauthier-front></link-gauthier-front>
+					</span>
+				</div>
+				<h3>Gauthier Biomedical</h3>
 			</a>
-			<h3>Cedar Crest</h3>
 		</div>
 	</div>
 </div>
@@ -88,18 +124,16 @@ let section = "work";
 		width: 100%;
 		height: auto;
 		overflow: hidden;
-		display: inline-block;
+		display: block;
 		position: relative;
 	}
 
-	.img-wrapper,
-	.img-wrapper picture,
+	.image-wrapper,
 	.work-image {
-		display: block;
-		margin: 0;
-		padding: 0;		
+		display: flex;
+		overflow: hidden;
+		background-color: #F4F4F4;
 	}
-
 	.work-image {
 		width: 100%;
 		transition: 0.3s;
@@ -121,6 +155,60 @@ let section = "work";
 	.work-grid a {
 		text-decoration: none;
 	}
+
+
+	.work-link .work-image-front,
+	.work-link .work-image-back {
+		display: flex;
+		width: 100%;
+		transition: 0.3s;
+		filter: contrast(1.2) saturate(0);
+	}
+
+	.work-link:hover .work-image-front {
+		transform: scale(1.1);
+		filter: contrast(1) saturate(1);
+	}
+
+	.work-link .work-image-back {
+		background-color: var(--deep-slate-blue);
+		position: absolute;
+		top: 0;
+		transition: .75s ease-in-out;
+		transform: scale(1.1);
+	}
+	.work-link .work-image-back svg {
+		opacity: .1;
+	}
+	.work-link:hover .work-image-back {
+		transform: scale(1);
+		filter: contrast(1) saturate(1);
+	}
+
+	.work-link  {
+		
+		.slhg {
+			background-color: rgb(155, 168, 131);
+		}
+		.pll {
+			background-color: #60554b;
+		}
+
+		.ff {
+			background-color: rgb(0, 142, 128);
+		}
+		.sani-t {
+			background-color: rgb(91, 126, 150);
+		}
+		.cc {
+			background-color: rgb(243, 153, 192);
+		}
+		.gb {
+			background-color: rgb(15, 119, 187);
+		}
+		
+	}
+
 
 
 
