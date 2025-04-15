@@ -12,6 +12,7 @@
 	--terra-cotta: #E07A5F;
 	--deep-slate-blue: #3D405B;
 	--muted-sage-green: #81B29A;
+	--off-white: #F4F4F4
 }
 ::-moz-selection {
 	color: var(--antique-white);
@@ -24,7 +25,7 @@
 }
 
 @font-face {
-	font-family: lato;url(http://192.168.68.100:8080/.11ty/image/?src%3Dcontent%2Fwork%2Fsmartlivinghg%2Fimages%2Fsmart-living-laptop.jpg%26width%3D2000%26format%3Davif%26via%3Dtransform)
+	font-family: lato;
 	src: url('/fonts/Lato-Light.woff2') format('woff2');
 	font-display: swap;
 }
@@ -170,7 +171,7 @@ footer {
 }
 
 .main-header {
-	border-bottom: .25em solid var(--muted-sage-green);
+	border-bottom: .25em solid var(--terra-cotta);
 }
 .main-header {
 	display: block;

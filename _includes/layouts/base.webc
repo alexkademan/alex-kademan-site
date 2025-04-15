@@ -25,6 +25,7 @@ let title = "Home";
 		<link rel="stylesheet" href="/css/reset.css" webc:keep>
 		<!--- This is rolled into the bundle. --->
 		<link rel="stylesheet" href="/css/base.css" webc:keep>
+		<link rel="stylesheet" href="/css/work.css" webc:keep>
 		<style webc:keep @raw="getBundle('css')"></style>
 	</head>
 	<body>		

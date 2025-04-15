@@ -27,7 +27,7 @@ let section = "work";
 			</a>
 		</div>
 		<div class="work-module">
-			<a href="#" class="work-link">
+			<a href="/work/pebblelaneliving/pebblelaneliving.webc" class="work-link">
 				<div class="img-wrapper">
 					<span class="work-image-back pll">
 						<link-pebblelaneliving-back></link-smartlivinghg-back>
@@ -66,7 +66,7 @@ let section = "work";
 			</a>
 		</div>
 		<div class="work-module">
-			<a href="#" class="work-link">
+			<a href="/work/cedarcrest/cedarcrest.webc" class="work-link">
 				<div class="img-wrapper">
 					<span class="work-image-back cc">
 						<link-cedarcrest-back></link-cedarcrest-back>
@@ -79,7 +79,7 @@ let section = "work";
 			</a>
 		</div>
 		<div class="work-module">
-			<a href="#" class="work-link">
+			<a href="/work/gauthier/gauthier.webc" class="work-link">
 				<div class="img-wrapper">
 					<span class="work-image-back gb">
 						<link-gauthier-back></link-gauthier-back>

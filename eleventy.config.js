@@ -46,6 +46,7 @@ export default function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./content/images/favicon.ico");
 	eleventyConfig.addPassthroughCopy("./content/css/reset.css");
 	eleventyConfig.addPassthroughCopy("./content/css/base.css");
+	eleventyConfig.addPassthroughCopy("./content/css/work.css");
 	// eleventyConfig.addBundle("css");
 
 	eleventyConfig.setServerOptions({

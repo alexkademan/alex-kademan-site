@@ -9,10 +9,10 @@ let section = "work";
 <div class="whole-window whole-width-img">
 	<div class="whole-width-img-container">
 		
-		<img src="/work/smartlivinghg/images/smart-living-laptop.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+		<img src="/work/cedarcrest/images/cedar-crest-header2.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
 		<div class="centered-section">
 			<div class="main-column-wide">
-				<h1>Smart Living<br />Home &amp; Garden</h1>
+				<h1>Cedar Crest<br />Ice Cream</h1>
 			</div>
 		</div>
 
@@ -20,19 +20,14 @@ let section = "work";
 	</div>
 </div>
 
-
-
-
 <div class="main-column-wide">
 	<div class="two-col-grid">
 		<div class="left">
-			<h2>Lead Designer</h2>
+			<h2>Visual Branding</h2>
 
-			<h1>Web Design,<br />Development,<br />+ Graphic Design</h1>
+			<h1>Logo Design,<br />+ Brand Management</h1>
 			<ul>
 				<li>Branding</li>
-				<li>E-Commerce Theme Development</li>
-				<li>E-Commerce App Customization</li>
 				<li>Packaging Design</li>
 				<li>Print Design Services</li>
 			</ul>
@@ -40,13 +35,7 @@ let section = "work";
 		<div class="right">
 			<h2>Overview</h2>
 			<p>
-				Smart Living Home &amp; Garden is an online retailer specializing in outdoor decor. I am their head of all things print and web design.
-			</p>
-			<p>
-				I've personally overseen the design and development of their online store as it moved between different e-commerce platforms. 
-			</p>
-			<p>
-				The website has been carefully curated from it's humble beginnings as a neatly crafted PHP application, with a single six mile tall CSS file. Later weathering the wild-west era of warring javascript frameworks, eventually moving to it's existing form as a well optimized, accessable, and responsive e-commerce mainstay.
+				Cedar Crest came to us in need of a re-branding effort. We re-designed their logo, gave them a new color scheme, and designed all of their next wave of packaging and print colateral.
 			</p>
 		</div>
 
@@ -55,237 +44,77 @@ let section = "work";
 
 	<div class="two-col-img-grid">
 		<span class="wide">
-			<img src="/work/smartlivinghg/images/website-iPad-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" class="wide" />
+			<img src="/work/cedarcrest/images/cc-branding.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" class="wide" />
 		</span>
-		<img src="/work/smartlivinghg/images/website-modals-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
-		<img src="/work/smartlivinghg/images/website-pages-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
 
-		<div class="wide three-logos">
-			<div class="logo logo-1">
-				<smart-living-logo-white-svg></smart-living-logo-white-svg>
+		<div class="wide three-col cedar-crest-3-col">
+			<div class="three-col-column col-1">
+				<cc-parlor-logo></cc-parlor-logo>
 			</div>
-			<div class="logo logo-2">
-				<smart-living-logo-white-svg></smart-living-logo-white-svg>
+			<div class="three-col-column col-2">
+				<cc-retail-logo></cc-retail-logo>
 			</div>
-			<div class="logo logo-3">
-				<smart-living-logo-white-svg></smart-living-logo-white-svg>
+			<div class="three-col-column col-3">
+				<cc-universal-logo></cc-universal-logo>
 			</div>
 		</div>
 	</div>
 
-
 	<div class="two-col-grid">
 		<div class="left">
-			<h2>Print Collateral</h2>
+			<h2>Visual Branding</h2>
 
-			<h1>
-				Annual Catalog<br />
-				+ Packaging
-			</h1>
+			<h1>Commissioned Photography<br />+ Photo Re-Touching</h1>
 			<ul>
-				<li>Catalog Layout</li>
-				<li>Annual Updates of Catalog</li>
-				<li>Box Layouts + Print Prep.</li>
+				<li>Commissioned Studio Photography</li>
+				
 			</ul>
 		</div>
 		<div class="right">
 			<h2>Overview</h2>
 			<p>
-				Original design, and annual update to 75+ page catalog.
+				This client required a lot of studio photography, and even more time spent re-touching to make everything look perfect.
 			</p>
 			<p>
-				Created all packaging design, and all print collateral for Smart Living Home &amp; Garden since 2020.
+				Despite working with top-notch food stylists and excellent photographers, the ice cream and sherbet that we had photographed still needed to be meticulously worked in Photoshop. In order to prepare for all future design work, we needed to put in the time to make each image look more real than real.
 			</p>
-			<p>&ast; Company operated under the brand name 'Smart Solar' prior to it's current name. </p>
 		</div>
-
 	</div>
 
 	<div class="two-col-img-grid">
 		<span class="wide">
-			<img src="/work/smartlivinghg/images/smart-living-catalog-cover-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" class="wide" />
+			<img src="/work/cedarcrest/images/cc-scoops.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" class="wide" />
 		</span>
-		<img src="/work/smartlivinghg/images/print-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
-		<img src="/work/smartlivinghg/images/print-02.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+
+		<img src="/work/cedarcrest/images/cc-pint.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+		<img src="/work/cedarcrest/images/cc-freezer.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+		<img src="/work/cedarcrest/images/cc-truck.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+		<img src="/work/cedarcrest/images/cc-sherbet.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
 	</div>
+
 </div>
 
 <style>
-	.whole-window {
-		display: inline-block;
-		width: 100%;
-	}
-	.whole-width-img-container {
-		display: flex;
-		align-items: end;
-		overflow: hidden;
-		aspect-ratio: 9 / 5;
-		width: 100%;
-		background-color: #F4F4F4;
-		position: relative;
-		overflow: hidden;
-	}
-
-	.whole-width-img {
-		img {
+	.cedar-crest-3-col {
+		svg {
 			display: block;
-			width: 100%;
-			height: auto;
-			filter: brightness(70%);
+			margin: 0 auto;
+			width: 85%;
+			padding: 3em 0;
 		}
-
-		.centered-section {
-			position: absolute;
-			bottom: 0;
-			width: 100%;
-		}
-
-		.main-column-wide {
-			padding-bottom: 0;
-		}
-
-		h1 {
-			color: white;
-			font-family: "display";
-			font-size: 2.5em;
-			line-height: .9em;
-			padding-bottom: .5em;
-			text-shadow: .02em .02em .02em var(--deep-slate-blue), .02em .02em .02em var(--deep-slate-blue), .02em .02em .02em var(--deep-slate-blue), .02em .02em .02em var(--deep-slate-blue);
-
-			text-shadow: 1px 1px 2px black;
-			text-shadow: 2px 2px 6px var(--deep-slate-blue);
-		}
-	}
-	.two-col-grid {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		margin-top: 1em;
-		padding: 1em 0 1em;
-		border-top: 1px #CCC solid;
-		gap: 3em;
-
-		.left,
-		.right {
-			grid-column: 1 /3;
-		}
-
-		h1 {
-			font-family: "lato-black";
-			padding-bottom: .75em;
-		}
-
-		h2 {
-			font-family: "lato";
-			font-size: .8em;			
-			text-transform: uppercase;
-			letter-spacing: .2em;
-			padding-top: .75em;
-			padding-bottom: 2em;
-		}
-
-		li {
-			line-height: 1.75em;
-			font-family: "lato-regular";
-		}
-	}
-	
-	.two-col-img-grid {
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: .25em;
-
-		picture,
-		img {
-			display: block;
-			background-color: #F4F4F4;
-			width: 100%;
-			margin: 0;
-			padding: 0;
-		}
-	}
-
-	.three-logos {
-		display: grid;
-		gap: .25em;
-		grid-template-columns: 1fr 1fr 1fr;
-		align-items: center;
-
-		.logo {
-			display: grid;
-			aspect-ratio: 3/2;
-
-			svg {
-				display: table-cell;
-				vertical-align: middle;
-				width: 55%;
-				/* margin: auto; */
-
-
-				align-self: center;
-				justify-self: center;
-			}
-		}
-
-		.logo-1 {
-			background-color: rgb(126, 154, 159);
-		}
-		.logo-2 {
-			background-color: rgb(155, 168, 131);
-		}
-		.logo-3 {
-			background-color: rgb(77, 71, 64);
-		}
-	}
-
-	@media only screen and (min-width: 650px) {
-		.two-col-grid {
-			padding-bottom: 4em;
-			gap: 2em;
-
-			.left,
-			.right {
-				grid-column: auto;
-			}
-
-			h2 {
-				padding-bottom: 4em
-			}
-		}
-
-		.whole-width-img h1 {
-			font-size: 3.5em;
-		}
-
-		.two-col-img-grid {
-			grid-template-columns: 1fr 1fr;
 		
-			.wide {
-				grid-column: 1 / 3;
-			}
+		.col-1 {
+			background-color: rgb(0 164 228);
 		}
-		.two-col-img-grid,
-		.three-logos {
-			gap: .5em;
+		.col-2 {
+			background-color: rgb(84 48 26);
+			background-color: rgb(244 144 175);
 		}
-	}
-
-	@media only screen and (min-width: 1200px) {
-		.two-col-grid {
-			padding-bottom: 6em;
-			gap: 8em;
-
-			.left,
-			.right {
-				grid-column: auto;
-			}
-		}
-
-		.whole-width-img h1 {
-			font-size: 5em;
-		}
-		.two-col-img-grid,
-		.three-logos {
-			gap: .75em;
+		.col-3 {
+			background-color: rgb(244 144 175);
+			background-color: rgb(84 48 26);
+			background-color: rgb(0 164 228);
+			background-color: rgb(247 158 29);
 		}
 	}
 </style>
