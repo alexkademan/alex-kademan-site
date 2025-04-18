@@ -49,7 +49,6 @@ export default function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./content/css/work.css");
 	// eleventyConfig.addBundle("css");
 	
-
 	eleventyConfig.setServerOptions({
 		domDiff: false
 	});
