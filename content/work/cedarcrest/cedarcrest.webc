@@ -91,7 +91,20 @@ let section = "work";
 		<img src="/work/cedarcrest/images/cc-truck.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
 		<img src="/work/cedarcrest/images/cc-sherbet.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
 	</div>
-
+	<div class="two-col-img-grid pagination">
+		<div class="previous">
+			<a href="/work/sani-t/sani-t.webc">
+				<span class="arr">&#9664;</span>
+				<span class="title">Sani-t</span>
+			</a>
+		</div>
+		<div class="next">
+			<a href="/work/gauthier/gauthier.webc">
+				<span class="title">Gauthier Biomedical</span>
+				<span class="arr">&#9654;</span>
+			</a>
+		</div>
+	</div>	
 </div>
 
 <style>

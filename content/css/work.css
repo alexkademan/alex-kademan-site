@@ -8,6 +8,7 @@
 	overflow: hidden;
 	aspect-ratio: 9 / 5;
 	width: 100%;
+	max-height: 60vh;
 	background-color: var(--off-white);
 	position: relative;
 	overflow: hidden;
@@ -142,6 +143,48 @@
 	}
 	.logo-3 {
 		background-color: rgb(77, 71, 64);
+	}
+}
+
+.pagination {
+	padding-top: 7em;
+
+	.next {
+	}
+
+	a {
+		display: block;
+		float: left;
+		position: relative;
+		padding: 1em 0;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-family: "lato";
+		color: var(--deep-slate-blue);
+		/* background-color: lightgray; */
+		font-size: smaller;
+
+		.arr {
+			display: inline-block;
+			color: #F4F4F4;
+			transition: .2s ease;
+		}
+
+		.title {
+			display: inline-block;
+			padding: 0 .5em;
+		}
+	}
+	a:hover { 
+		color: var(--terra-cotta);
+
+		.arr {
+			color: var(--terra-cotta);
+		}
+	}
+	.next a {
+		display: block;
+		float: right;
 	}
 }
 

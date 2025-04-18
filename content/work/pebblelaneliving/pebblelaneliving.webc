@@ -62,6 +62,23 @@ let section = "work";
 		</div>
 	</div>
 
+
+
+	<div class="two-col-img-grid pagination">
+		<div class="previous">
+			<a href="/work/smartlivinghg/smartlivinghg.webc">
+				<span class="arr">&#9664;</span>
+				<span class="title">Smart Living Home &amp; Garden</span>
+			</a>
+		</div>
+		<div class="next">
+			<a href="/work/fountain-fresh-plus/fountain-fresh-plus.webc"">
+				<span class="title">Fountain Fresh +</span>
+				<span class="arr">&#9654;</span>
+			</a>
+		</div>
+	</div>
+
 </div>
 
 <style>

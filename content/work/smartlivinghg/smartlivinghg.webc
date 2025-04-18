@@ -37,7 +37,7 @@ let section = "work";
 		<div class="right">
 			<h2>Overview</h2>
 			<p>
-				Smart Living Home &amp; Garden is an online retailer specializing in outdoor decor. I am their head of all things print and web design.
+				Smart Living Home &amp; Garden is an online retailer specializing in outdoor decor. I worked as their head of all things print and web design.
 			</p>
 			<p>
 				I've personally overseen the design and development of their online store as it moved between different e-commerce platforms. 
@@ -52,7 +52,7 @@ let section = "work";
 
 	<div class="two-col-img-grid">
 		<span class="wide">
-			<img src="/work/smartlivinghg/images/website-iPad-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" class="wide" />
+			<img src="/work/smartlivinghg/images/website-iPad-03.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" class="wide" />
 		</span>
 		<img src="/work/smartlivinghg/images/website-modals-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
 		<img src="/work/smartlivinghg/images/website-pages-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
@@ -105,6 +105,22 @@ let section = "work";
 		<img src="/work/smartlivinghg/images/print-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
 		<img src="/work/smartlivinghg/images/print-02.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
 	</div>
+
+	<div class="two-col-img-grid pagination">
+		<div class="previous">
+			<a href="/work/gauthier/gauthier.webc">
+				<span class="arr">&#9664;</span>
+				<span class="title">Gauthier Biomedical</span>
+			</a>
+		</div>
+		<div class="next">
+			<a href="/work/pebblelaneliving/pebblelaneliving.webc"">
+				<span class="title">Pebble Lane Living</span>
+				<span class="arr">&#9654;</span>
+			</a>
+		</div>
+	</div>
+
 </div>
 
 <style>

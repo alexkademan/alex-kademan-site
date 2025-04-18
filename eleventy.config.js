@@ -49,6 +49,13 @@ export default function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./content/css/work.css");
 	// eleventyConfig.addBundle("css");
 
+	eleventyConfig.addPassthroughCopy("./content/work/cedarcrest/images");
+	eleventyConfig.addPassthroughCopy("./content/work/fountain-fresh-plus/images");
+	eleventyConfig.addPassthroughCopy("./content/work/gauthier/images");
+	eleventyConfig.addPassthroughCopy("./content/work/pebblelaneliving/images");
+	eleventyConfig.addPassthroughCopy("./content/work/sani-t/images");
+	eleventyConfig.addPassthroughCopy("./content/work/smartlivinghg/images");
+
 	eleventyConfig.setServerOptions({
 		domDiff: false
 	});

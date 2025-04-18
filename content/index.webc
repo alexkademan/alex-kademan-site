@@ -1,24 +1,79 @@
 ---js
 // Initialize page data in JavaScript front matter
-let place = "Earth";
+let section = "work";
 ---
+<div class="home-title">
+	<div class="main-column-wide">
 
-<div class="main-column">
-	<h1><hello-component place="world"></hello-component> Heading 1</h1>
-	<h2><hello-component :place="place"></hello-component> Heading 2</h2>
-	<h3><hello-component :place="place"></hello-component> Heading 3</h3>
-	<h4><hello-component :place="place"></hello-component> Heading 4</h4>
-	<h5><hello-component :place="place"></hello-component> Heading 5</h5>
-	<h2><hello-component place="world"></hello-component> Heading 2</h2>
-	<h6><hello-component :place="place"></hello-component> Heading 6</h6>
-
-	<p>More than just a designer, I'm a creative problem-solver. I'm passionate about crafting unique and memorable designs that resonate with your audience. Let's collaborate to create something amazing.</a>.</p>
-
-	<p>Lorem Ipsum is <i>simply dummy text of the <a href="#">printing and typesetting</a> industry.</i> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the <a href="resume.webc">leap into electronic typesetting,</a> remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-	<h2>This is a subhead (h2)</h2>
-	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-	<p>everything goes onto the page...</p>
+		<div class="wide three-title-col">
+			<div class="col-1">
+				<h1>Web Designer, <br>Web Developer,<br />Graphic Designer</h1>
+			</div>
+			<div class="col-2">
+				<p>
+					I am a senior designer who specializes in both web and print design. My almost two decades of experience inform my approach to my work with a deep foundation of wisdom, paired with an ever curious eye to future developments in the industry.
+				</p>
+				<p>
+					I build things with care, and love what I build. 
+				</p>
+			</div>
+		</div>
+	</div>
 </div>
+<work-all></work-all>
+
+
+<style>
+	.home-title {
+		background-color: var(--off-white);
+
+		.main-column-wide {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+
+
+
+	.three-title-col {
+		display: grid;
+		gap: .25em;
+		grid-template-columns: 1fr;
+		align-items: center;
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
+
+		h1 {
+			font-family: "lato";
+		}
+
+		p {
+			padding: .5em 0;
+		}
+	}
+	
+	@media only screen and (min-width: 1100px) {
+		.three-title-col {
+			grid-template-columns: 1fr 1fr 1fr;
+			gap: .5em;
+
+			padding-top: 5em;
+			padding-bottom: 5em;
+			min-height: 40vh;
+
+			.col-2 {
+				grid-column: 2 / 4;
+			}
+
+			p {
+				max-width: 44em;
+			}
+		}
+	}
+
+	@media only screen and (min-width: 1200px) {
+		.three-title-col {
+			gap: .75em;
+		}
+	}
+</style>

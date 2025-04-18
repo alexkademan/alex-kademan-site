@@ -5,7 +5,7 @@
 	</a>
 	<ul class="main-nav">
 		<li>
-			<a href="work.webc">
+			<a href="/">
 				<span webc:if="section === 'work'" class="selected">Work</span>
 				<span webc:else  class="not-selected">Work</span>
 			</a>
@@ -16,14 +16,7 @@
 				<span webc:if="section === 'resume'" class="selected">Résumé</span>
 				<span webc:else  class="not-selected">Résumé</span>
 			</a>
-		</li>
-		
-		<li>
-			<a href="contact.webc">
-				<span webc:if="section === 'contact'" class="selected">Contact</span>
-				<span webc:else  class="not-selected">Contact</span>
-			</a>
-		</li>			
+		</li>	
 	</ul>
 </div>
 
