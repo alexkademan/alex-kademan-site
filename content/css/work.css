@@ -148,6 +148,24 @@
 
 .pagination {
 	padding-top: 7em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+	.previous,
+	.next {
+		display: flex;		
+	}
+
+	.previous > a,
+	.next > a {
+		display: grid;
+		grid-template-columns: 1fr auto;
+		align-items: center;
+	}
+
+	.next {
+		justify-content: flex-end;
+	}
 
 	a {
 		display: block;
@@ -163,35 +181,29 @@
 
 		.arr {
 			display: inline-block;
-			color: #F4F4F4;
+			transition: .2s ease;
+			width: .75em;
+			align-items: center;
+		}
+
+		.arr svg {
+			display: block;
+			fill: var(--deep-slate-blue);
 			transition: .2s ease;
 		}
 
 		.title {
 			display: inline-block;
 			padding: 0 .5em;
+			line-height: 1.2em;
 		}
 	}
 	a:hover { 
 		color: var(--terra-cotta);
 
-		.arr {
-			color: var(--terra-cotta);
+		.arr svg {
+			fill: var(--terra-cotta);
 		}
-	}
-
-
-	.previous,
-	.next {
-		display: flex;		
-	}
-	.next {
-		justify-content: flex-end;
-	}
-
-	.next a {
-		display: block;
-		float: right;
 	}
 }
 

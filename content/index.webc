@@ -128,6 +128,7 @@ let section = "work";
 		display: block;
 		position: relative;
 		aspect-ratio: 4 / 3;
+		background-color: deeppink;
 	}
 
 	.image-wrapper,
@@ -165,6 +166,7 @@ let section = "work";
 		top: 0;
 		display: flex;
 		width: 100%;
+		height: 100%;
 		transition: 0.3s;
 		filter: contrast(1.2) saturate(0);
 	}

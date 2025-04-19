@@ -9,7 +9,7 @@ let section = "work";
 <div class="whole-window whole-width-img">
 	<div class="whole-width-img-container">
 		
-		<img src="/work/smartlivinghg/images/smart-living-header.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+		<img src="/work/smartlivinghg/images/smart-living-header.jpg" class="work-image" alt="Smart Living website on laptop" loading="lazy" />
 		<div class="centered-section">
 			<div class="main-column-wide">
 				<h1>Smart Living<br />Home &amp; Garden</h1>
@@ -52,10 +52,10 @@ let section = "work";
 
 	<div class="two-col-img-grid">
 		<span class="wide">
-			<img src="/work/smartlivinghg/images/website-iPad-03.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" class="wide" />
+			<img src="/work/smartlivinghg/images/website-iPad-03.jpg" class="work-image" alt="Smart Living website on iPad" loading="lazy" class="wide" />
 		</span>
-		<img src="/work/smartlivinghg/images/website-modals-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
-		<img src="/work/smartlivinghg/images/website-pages-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+		<img src="/work/smartlivinghg/images/website-modals-01.jpg" class="work-image" alt="Smart Living pop up ads" loading="lazy" />
+		<img src="/work/smartlivinghg/images/website-pages-01.jpg" class="work-image" alt="Smart Living website page layouts" loading="lazy" />
 
 		<div class="wide three-logos">
 			<div class="logo logo-1">
@@ -100,23 +100,23 @@ let section = "work";
 
 	<div class="two-col-img-grid">
 		<span class="wide">
-			<img src="/work/smartlivinghg/images/smart-living-catalog-cover-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" class="wide" />
+			<img src="/work/smartlivinghg/images/smart-living-catalog-cover-01.jpg" class="work-image" alt="Smart Living catalog" loading="lazy" class="wide" />
 		</span>
-		<img src="/work/smartlivinghg/images/print-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
-		<img src="/work/smartlivinghg/images/print-02.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+		<img src="/work/smartlivinghg/images/print-01.jpg" class="work-image" alt="Smart Living packaging" loading="lazy" />
+		<img src="/work/smartlivinghg/images/print-02.jpg" class="work-image" alt="Smart Living packaging" loading="lazy" />
 	</div>
 
 	<div class="two-col-img-grid pagination">
 		<div class="previous">
 			<a href="/work/gauthier/gauthier.webc">
-				<span class="arr">&#9664;</span>
+				<span class="arr"><pagination-left-arrow></pagination-left-arrow></span>
 				<span class="title">Gauthier Biomedical</span>
 			</a>
 		</div>
 		<div class="next">
 			<a href="/work/pebblelaneliving/pebblelaneliving.webc"">
 				<span class="title">Pebble Lane Living</span>
-				<span class="arr">&#9654;</span>
+				<span class="arr"><pagination-right-arrow></pagination-right-arrow></span>
 			</a>
 		</div>
 	</div>

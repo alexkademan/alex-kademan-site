@@ -9,7 +9,7 @@ let section = "work";
 <div class="whole-window whole-width-img">
 	<div class="whole-width-img-container">
 		
-		<img src="/work/gauthier/images/gauthier-header.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+		<img src="/work/gauthier/images/gauthier-header.jpg" class="work-image" alt="Gauthier surgical tools on display" loading="lazy" />
 		<div class="centered-section">
 			<div class="main-column-wide">
 				<h1>Gauthier<br />Biomedical</h1>
@@ -44,24 +44,24 @@ let section = "work";
 
 	<div class="two-col-img-grid">
 		
-		<img src="/work/gauthier/images/gauthier-ad1.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
-		<img src="/work/gauthier/images/gauthier-tradeshow.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+		<img src="/work/gauthier/images/gauthier-ad1.jpg" class="work-image" alt="Gauthier print advertisement" loading="lazy" />
+		<img src="/work/gauthier/images/gauthier-tradeshow.jpg" class="work-image" alt="Gauthier tradeshow signage" loading="lazy" />
 		<span class="wide">
-			<img src="/work/gauthier/images/gauthier-catalog2.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" class="wide" />
+			<img src="/work/gauthier/images/gauthier-catalog2.jpg" class="work-image" alt="Gauthier full line catalog" loading="lazy" class="wide" />
 		</span>
 	</div>
 
 	<div class="two-col-img-grid pagination">
 		<div class="previous">
 			<a href="/work/cedarcrest/cedarcrest.webc">
-				<span class="arr">&#9664;</span>
+				<span class="arr"><pagination-left-arrow></pagination-left-arrow></span>
 				<span class="title">Cedar Crest Ice Cream</span>
 			</a>
 		</div>
 		<div class="next">
 			<a href="/work/smartlivinghg/smartlivinghg.webc"">
 				<span class="title">Smart Living Home &amp Garden</span>
-				<span class="arr">&#9654;</span>
+				<span class="arr"><pagination-right-arrow></pagination-right-arrow></span>
 			</a>
 		</div>
 	</div>

@@ -9,7 +9,7 @@ let section = "work";
 <div class="whole-window whole-width-img">
 	<div class="whole-width-img-container">
 		
-		<img src="/work/pebblelaneliving/images/pll-header-01.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+		<img src="/work/pebblelaneliving/images/pll-header-01.jpg" class="work-image" alt="Pebble Lane Living website on Laptop" loading="lazy" />
 		<div class="centered-section">
 			<div class="main-column-wide">
 				<h1>Pebble Lane<br />Living</h1>
@@ -54,10 +54,10 @@ let section = "work";
 				<pll-logo-for-page></pll-logo-for-page>
 			</div>
 			<div class="three-col-column col-2">
-				<img src="/work/pebblelaneliving/images/pll-image-1.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+				<img src="/work/pebblelaneliving/images/pll-image-1.jpg" class="work-image" alt="Pebble Lane Living logo engraved on hammock" loading="lazy" />
 			</div>
 			<div class="three-col-column col-3">
-				<img src="/work/pebblelaneliving/images/pll-image-2.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+				<img src="/work/pebblelaneliving/images/pll-image-2.jpg" class="work-image" alt="Pebble Lane Living logo engraved on hammock" loading="lazy" />
 			</div>
 		</div>
 	</div>
@@ -67,14 +67,14 @@ let section = "work";
 	<div class="two-col-img-grid pagination">
 		<div class="previous">
 			<a href="/work/smartlivinghg/smartlivinghg.webc">
-				<span class="arr">&#9664;</span>
+				<span class="arr"><pagination-left-arrow></pagination-left-arrow></span>
 				<span class="title">Smart Living Home &amp; Garden</span>
 			</a>
 		</div>
 		<div class="next">
 			<a href="/work/fountain-fresh-plus/fountain-fresh-plus.webc"">
-				<span class="title">Fountain Fresh +</span>
-				<span class="arr">&#9654;</span>
+				<span class="title">Fountain Fresh Plus</span>
+				<span class="arr"><pagination-right-arrow></pagination-right-arrow></span>
 			</a>
 		</div>
 	</div>

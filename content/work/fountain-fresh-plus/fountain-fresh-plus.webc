@@ -64,14 +64,14 @@ let section = "work";
 	<div class="two-col-img-grid pagination">
 		<div class="previous">
 			<a href="/work/pebblelaneliving/pebblelaneliving.webc">
-				<span class="arr">&#9664;</span>
+				<span class="arr"><pagination-left-arrow></pagination-left-arrow></span>
 				<span class="title">Pebble Lane Living	</span>
 			</a>
 		</div>
 		<div class="next">
 			<a href="/work/sani-t/sani-t.webc">
 				<span class="title">Sani-t</span>
-				<span class="arr">&#9654;</span>
+				<span class="arr"><pagination-right-arrow></pagination-right-arrow></span>
 			</a>
 		</div>
 	</div>

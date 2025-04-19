@@ -9,7 +9,7 @@ let section = "work";
 <div class="whole-window whole-width-img">
 	<div class="whole-width-img-container">
 		
-		<img src="/work/cedarcrest/images/cedar-crest-header2.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+		<img src="/work/cedarcrest/images/cedar-crest-header2.jpg" class="work-image" alt="Cedar Crest Summerfest" loading="lazy" />
 		<div class="centered-section">
 			<div class="main-column-wide">
 				<h1>Cedar Crest<br />Ice Cream</h1>
@@ -44,7 +44,7 @@ let section = "work";
 
 	<div class="two-col-img-grid">
 		<span class="wide">
-			<img src="/work/cedarcrest/images/cc-branding.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" class="wide" />
+			<img src="/work/cedarcrest/images/cc-branding.jpg" class="work-image" alt="Cedar Crest collage" loading="lazy" class="wide" />
 		</span>
 
 		<div class="wide three-col cedar-crest-3-col">
@@ -83,25 +83,25 @@ let section = "work";
 
 	<div class="two-col-img-grid">
 		<span class="wide">
-			<img src="/work/cedarcrest/images/cc-scoops.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" class="wide" />
+			<img src="/work/cedarcrest/images/cc-scoops.jpg" class="work-image" alt="Cedar Crest scoops" loading="lazy" class="wide" />
 		</span>
 
-		<img src="/work/cedarcrest/images/cc-pint.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
-		<img src="/work/cedarcrest/images/cc-freezer.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
-		<img src="/work/cedarcrest/images/cc-truck.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
-		<img src="/work/cedarcrest/images/cc-sherbet.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
+		<img src="/work/cedarcrest/images/cc-pint.jpg" class="work-image" alt="Cedar Crest pints" loading="lazy" />
+		<img src="/work/cedarcrest/images/cc-freezer.jpg" class="work-image" alt="Cedar Crest freezer" loading="lazy" />
+		<img src="/work/cedarcrest/images/cc-truck.jpg" class="work-image" alt="Cedar Crest truck" loading="lazy" />
+		<img src="/work/cedarcrest/images/cc-sherbet.jpg" class="work-image" alt="Cedar Crest sherbet" loading="lazy" />
 	</div>
 	<div class="two-col-img-grid pagination">
 		<div class="previous">
 			<a href="/work/sani-t/sani-t.webc">
-				<span class="arr">&#9664;</span>
+				<span class="arr"><pagination-left-arrow></pagination-left-arrow></span>
 				<span class="title">Sani-t</span>
 			</a>
 		</div>
 		<div class="next">
 			<a href="/work/gauthier/gauthier.webc">
 				<span class="title">Gauthier Biomedical</span>
-				<span class="arr">&#9654;</span>
+				<span class="arr"><pagination-right-arrow></pagination-right-arrow></span>
 			</a>
 		</div>
 	</div>	
