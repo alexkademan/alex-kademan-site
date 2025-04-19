@@ -149,9 +149,6 @@
 .pagination {
 	padding-top: 7em;
 
-	.next {
-	}
-
 	a {
 		display: block;
 		float: left;
@@ -182,6 +179,16 @@
 			color: var(--terra-cotta);
 		}
 	}
+
+
+	.previous,
+	.next {
+		display: flex;		
+	}
+	.next {
+		justify-content: flex-end;
+	}
+
 	.next a {
 		display: block;
 		float: right;
