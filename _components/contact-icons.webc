@@ -21,11 +21,14 @@
 
 <style>
 	.contact-icons {
-		display: flex;
+		display: inline-block;
 		flex-direction: row;
 		gap: .75em;
 
 		.contact-icon {
+			display: block;
+			float: left;
+			margin-right: .75em;
 
 			a {
 

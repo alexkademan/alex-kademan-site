@@ -14,7 +14,7 @@ let section = "resume";
 	<section class="summary">
 		<h2>About Me</h2>
 		<p>
-			Graphic Designer with over eighteen years of experience in print and web design. Skilled in Adobe Illustrator, InDesign and Photoshop as well as Javascript, Node.js, React, HTML5, CSS3, PHP and MySQL. Always looking to learn more about the changing landscape of web development. Expert in visual design, with a Bachelor of Arts focused in Graphic Design and Typography from the University of Wisconsin-Milwaukee.
+			Graphic Designer with nearly twenty years of experience in print and web design. Skilled in Adobe Illustrator, InDesign and Photoshop as well as Javascript, Node.js, React, HTML5, CSS3, PHP and MySQL. Always looking to learn more about the changing landscape of web development. Expert in visual design, with a Bachelor of Arts focused in Graphic Design and Typography from the University of Wisconsin-Milwaukee.
 		</p>
 	</section>
 	<section class="experience">
@@ -22,15 +22,15 @@ let section = "resume";
 		<ol class="timeline">
 			<li class="job">
 				<hgroup class="title">
-					<small class="time">May 2020 - Present</small>
+					<small class="time">May 2020 - April 2025</small>
 					<h3>Senior Designer</h3>
 					<h4>Smart Living Home &amp; Garden <span class="bullet">•</span> Remote</h4>
 				</hgroup>
 				<ul class="tasks">
-					<li>Design, build and maintain e-commerce website using various shopping cart CMS applications.</li>
-					<li>Write and maintain all custom javascript, PHP and template files for website, both front end and back.</li>
-					<li>MySQL oversight and maintenance.</li>
-					<li>Linux Apache web server configuration and management (VPS).</li>
+					<li>Design, build and maintain e-commerce website using various shopping cart CMS applications over time.</li>
+					<li>Write and maintain all custom javascript, PHP, and template engine files for website, front end and back.</li>
+					<li>MySQL installation, oversight and maintenance.</li>
+					<li>Web server configuration and management (Apache VPS).</li>
 					<li>Logo design.</li>
 					<li>Packaging design and pre-press.</li>
 				</ul>
@@ -43,11 +43,11 @@ let section = "resume";
 				</hgroup>
 				<ul class="tasks">
 					<li>Design deploy and oversee multiple e-commerce websites.</li>
-					<li>Wordpress theme development.</li>
+					<li>Wordpress site development and maintenance.</li>
 					<li>Jekyll website development.</li>
 					<li>logo design.</li>
 					<li>Package design and pre-press.</li>
-					<li>Design print collateral for marketing purposes.</li>
+					<li>Design of web and print collateral for marketing purposes.</li>
 				</ul>
 			</li>
 		</ol>
