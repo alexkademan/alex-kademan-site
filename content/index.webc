@@ -5,17 +5,19 @@ let section = "work";
 <div class="home-title">
 	<div class="main-column-wide">
 
-		<div class="wide three-title-col">
+		<div class="wide three-title-col homepage-intro">
 			<div class="col-1">
 				<h1>Web Designer, <br>Web Developer,<br />Graphic Designer</h1>
 			</div>
 			<div class="col-2">
-				<p>
-					I am a senior designer who specializes in both web and print design. My nearly two decades of experience inform my approach to my work with a deep foundation of wisdom, paired with an ever curious eye to future developments in the industry.
-				</p>
-				<p>
-					I build things with care, and love what I build. 
-				</p>
+				<span class="intro-text">
+					<p>
+						I am a senior designer who specializes in both web and print design. My nearly two decades of experience inform my approach to my work with a deep foundation of wisdom, paired with an ever curious eye to future developments in the industry.
+					</p>
+					<p>
+						I build things with care, and love what I build. 
+					</p>
+				</span>
 			</div>
 		</div>
 	</div>
@@ -108,6 +110,34 @@ let section = "work";
 
 
 <style>
+
+	@keyframes fadeInH1 {
+		from {
+			transform: translateY(10%);
+			opacity: 0;
+		}
+
+		to {
+			transform: translateY(0%);
+			opacity: 1;
+		}
+
+	}
+	.homepage-intro {
+		h1 {
+			opacity: 0;
+			animation: fadeInH1 .5s .5s forwards;
+			animation-timing-function: ease-out;
+		}
+
+		.intro-text {
+			display: inline-block;
+			opacity: 0;
+			animation: fadeInH1 1.2s 1s forwards;
+			animation-timing-function: ease-out;
+		}
+	}
+
 	.work-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
