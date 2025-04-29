@@ -9,7 +9,7 @@ let section = "work";
 <div class="whole-window whole-width-img">
 	<div class="whole-width-img-container">
 		
-		<img src="/work/cedarcrest/images/cedar-crest-header2.jpg" class="work-image" alt="Cedar Crest Summerfest" loading="lazy" />
+		<img src="/work/cedarcrest/images/cedar-crest-grocery-store.jpg" class="work-image" alt="Cedar Crest Summerfest" loading="lazy" />
 		<div class="centered-section">
 			<div class="main-column-wide">
 				<h1>Cedar Crest<br />Ice Cream</h1>
