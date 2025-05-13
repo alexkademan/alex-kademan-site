@@ -66,9 +66,9 @@ let section = "work";
 
 	<div class="two-col-img-grid pagination">
 		<div class="previous">
-			<a href="/work/smartlivinghg/smartlivinghg.webc">
+			<a href="/work/solfulfitness/solfulfitness.webc">
 				<span class="arr"><pagination-left-arrow></pagination-left-arrow></span>
-				<span class="title">Smart Living Home &amp; Garden</span>
+				<span class="title">Solful Fitness</span>
 			</a>
 		</div>
 		<div class="next">

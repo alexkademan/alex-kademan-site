@@ -120,8 +120,8 @@ let section = "work";
 			</a>
 		</div>
 		<div class="next">
-			<a href="/work/pebblelaneliving/pebblelaneliving.webc"">
-				<span class="title">Pebble Lane Living</span>
+			<a href="/work/solfulfitness/solfulfitness.webc"">
+				<span class="title">Solful Fitness</span>
 				<span class="arr"><pagination-right-arrow></pagination-right-arrow></span>
 			</a>
 		</div>
