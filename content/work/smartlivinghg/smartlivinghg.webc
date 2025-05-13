@@ -33,6 +33,11 @@ let section = "work";
 				<li>Packaging Design</li>
 				<li>Print Design Services</li>
 			</ul>
+
+			<a href="https://smartlivinghg.com/" target="_blank">
+				<button>Visit Website</button>
+			</a>
+			
 		</div>
 		<div class="right">
 			<h2>Overview</h2>
@@ -45,6 +50,7 @@ let section = "work";
 			<p>
 				The website has been carefully curated from it's humble beginnings as a neatly crafted PHP application, with a single six mile tall CSS file. Later weathering the wild-west era of warring javascript frameworks, eventually moving to it's existing form as a well optimized, accessable, and responsive e-commerce mainstay.
 			</p>
+
 		</div>
 
 	</div>
