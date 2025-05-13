@@ -40,6 +40,19 @@ let section = "work";
 			</a>
 		</div>		
 		<div class="work-module">
+			<a href="/work/solfulfitness/solfulfitness.webc" class="work-link">
+				<div class="img-wrapper">
+					<span class="work-image-back solful">
+						<link-solful-back></link-solful-back>
+					</span>
+					<span class="work-image-front">
+						<link-solful-front></link-solful-front>
+					</span>
+				</div>
+				<h3>Solful Fitness</h3>
+			</a>
+		</div>
+		<div class="work-module">
 			<a href="/work/pebblelaneliving/pebblelaneliving.webc" class="work-link">
 				<div class="img-wrapper">
 					<span class="work-image-back pll">
@@ -225,6 +238,9 @@ let section = "work";
 		
 		.slhg {
 			background-color: rgb(155, 168, 131);
+		}
+		.solful {
+			background-color: rgb(239, 65, 55);
 		}
 		.pll {
 			background-color: #60554b;
