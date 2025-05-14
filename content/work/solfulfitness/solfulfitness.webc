@@ -9,7 +9,7 @@ let section = "work";
 <div class="whole-window whole-width-img">
 	<div class="whole-width-img-container">
 		
-		<img src="/work/solfulfitness/images/group-img.jpg" class="work-image" alt="Smart Living website on laptop" loading="lazy" />
+		<img src="/work/solfulfitness/images/solful-header.jpg" class="work-image" alt="Smart Living website on laptop" loading="lazy" />
 		<div class="centered-section">
 			<div class="main-column-wide">
 				<h1>Solful<br />Fitness</h1>
