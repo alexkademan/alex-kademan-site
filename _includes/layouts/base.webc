@@ -55,11 +55,7 @@ let title = "Home";
 				</div>
 				<footer-ak-icon></footer-ak-icon>
 			</div>
-
-
-			
 		</footer>
-
 		<script type="module" webc:keep @raw="getBundle('js')"></script>
 	</body>
 </html>
