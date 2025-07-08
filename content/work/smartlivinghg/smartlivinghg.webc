@@ -7,61 +7,67 @@ let section = "work";
 ---
 
 <div class="whole-window whole-width-img">
-	<div class="whole-width-img-container">
-		
-		<img src="/work/smartlivinghg/images/smart-living-header.jpg" class="work-image" alt="Smart Living website on laptop" loading="lazy" />
-		<div class="centered-section">
-			<div class="main-column-wide">
-				<h1>Smart Living<br />Home &amp; Garden</h1>
-			</div>
+	<is-land on:visible>
+		<div class="whole-width-img-container">
+			<img src="/work/smartlivinghg/images/smart-living-header.jpg" class="hero-image" alt="Smart Living website on laptop" loading="lazy" />
+			<div class="centered-section">
+				<div class="main-column-wide">
+					<h1>Smart Living<br />Home &amp; Garden</h1>
+				</div>
+			</div>			
 		</div>
-
-		
-	</div>
+	</is-land>
 </div>
 
 <div class="main-column-wide">
-	<div class="two-col-grid">
-		<div class="left">
-			<h2>Lead Designer</h2>
+	<is-land on:visible>
+		<div class="two-col-grid description-copy">
+			<div class="left">
+				<h2>Lead Designer</h2>
 
-			<h1>Web Design,<br />Development,<br />+ Graphic Design</h1>
-			<ul>
-				<li>Branding</li>
-				<li>E-Commerce Theme Development</li>
-				<li>E-Commerce App Customization</li>
-				<li>Packaging Design</li>
-				<li>Print Design Services</li>
-			</ul>
+				<h1>Web Design,<br />Development,<br />+ Graphic Design</h1>
+				<ul>
+					<li>Branding</li>
+					<li>E-Commerce Theme Development</li>
+					<li>E-Commerce App Customization</li>
+					<li>Packaging Design</li>
+					<li>Print Design Services</li>
+				</ul>
 
-			<a href="https://smartlivinghg.com/" target="_blank">
-				<button>Visit Website</button>
-			</a>
-			
+				<a href="https://smartlivinghg.com/" target="_blank">
+					<button>Visit Website</button>
+				</a>
+				
+			</div>
+			<div class="right">
+				<h2>Overview</h2>
+				<p>
+					Smart Living Home &amp; Garden is an online retailer specializing in outdoor decor. I worked as their head of all things print and web design.
+				</p>
+				<p>
+					I've personally overseen the design and development of their online store as it moved between different e-commerce platforms. 
+				</p>
+				<p>
+					The website has been carefully curated from it's humble beginnings as a neatly crafted PHP application, with a single six mile tall CSS file. Later weathering the wild-west era of warring JavaScript frameworks, eventually moving to it's existing form as a well optimized, accessible, and responsive e-commerce mainstay.
+				</p>
+
+			</div>
 		</div>
-		<div class="right">
-			<h2>Overview</h2>
-			<p>
-				Smart Living Home &amp; Garden is an online retailer specializing in outdoor decor. I worked as their head of all things print and web design.
-			</p>
-			<p>
-				I've personally overseen the design and development of their online store as it moved between different e-commerce platforms. 
-			</p>
-			<p>
-				The website has been carefully curated from it's humble beginnings as a neatly crafted PHP application, with a single six mile tall CSS file. Later weathering the wild-west era of warring JavaScript frameworks, eventually moving to it's existing form as a well optimized, accessible, and responsive e-commerce mainstay.
-			</p>
-
-		</div>
-
-	</div>
+	</is-land>
 
 
 	<div class="two-col-img-grid">
 		<span class="wide">
-			<img src="/work/smartlivinghg/images/website-iPad-03.jpg" class="work-image" alt="Smart Living website on iPad" loading="lazy" class="wide" />
+			<is-land on:visible>
+				<img src="/work/smartlivinghg/images/website-iPad-03.jpg" class="work-image" alt="Smart Living website on iPad" loading="lazy" class="wide" />
+			</is-land>
 		</span>
-		<img src="/work/smartlivinghg/images/website-modals-01.jpg" class="work-image" alt="Smart Living pop up ads" loading="lazy" />
-		<img src="/work/smartlivinghg/images/website-pages-01.jpg" class="work-image" alt="Smart Living website page layouts" loading="lazy" />
+		<is-land on:visible>
+			<img src="/work/smartlivinghg/images/website-modals-01.jpg" class="work-image" alt="Smart Living pop up ads" loading="lazy" />
+		</is-land>
+		<is-land on:visible>
+			<img src="/work/smartlivinghg/images/website-pages-01.jpg" class="work-image" alt="Smart Living website page layouts" loading="lazy" />
+		</is-land>
 
 		<div class="wide three-logos">
 			<div class="logo logo-1">
@@ -77,39 +83,48 @@ let section = "work";
 	</div>
 
 
-	<div class="two-col-grid">
-		<div class="left">
-			<h2>Print Collateral</h2>
+	
+	<is-land on:visible>
+		<div class="two-col-grid description-copy">
+			<div class="left">
+				<h2>Print Collateral</h2>
 
-			<h1>
-				Annual Catalog<br />
-				+ Packaging
-			</h1>
-			<ul>
-				<li>Catalog Layout</li>
-				<li>Annual Updates of Catalog</li>
-				<li>Box Layouts + Print Prep.</li>
-			</ul>
-		</div>
-		<div class="right">
-			<h2>Overview</h2>
-			<p>
-				Original design, and annual update to 75+ page catalog.
-			</p>
-			<p>
-				Created all packaging design, and all print collateral for Smart Living Home &amp; Garden since 2020.
-			</p>
-			<p>&ast; Company operated under the brand name 'Smart Solar' prior to it's current name. </p>
-		</div>
+				<h1>
+					Annual Catalog<br />
+					+ Packaging
+				</h1>
+				<ul>
+					<li>Catalog Layout</li>
+					<li>Annual Updates of Catalog</li>
+					<li>Box Layouts + Print Prep.</li>
+				</ul>
+			</div>
+			<div class="right">
+				<h2>Overview</h2>
+				<p>
+					Original design, and annual update to 75+ page catalog.
+				</p>
+				<p>
+					Created all packaging design, and all print collateral for Smart Living Home &amp; Garden since 2020.
+				</p>
+				<p>&ast; Company operated under the brand name 'Smart Solar' prior to it's current name. </p>
+			</div>
 
-	</div>
+		</div>
+	</is-land>	
 
 	<div class="two-col-img-grid">
 		<span class="wide">
-			<img src="/work/smartlivinghg/images/smart-living-catalog-cover-01.jpg" class="work-image" alt="Smart Living catalog" loading="lazy" class="wide" />
+			<is-land on:visible>
+				<img src="/work/smartlivinghg/images/smart-living-catalog-cover-01.jpg" class="work-image" alt="Smart Living catalog" loading="lazy" class="wide" />
+			</is-land>
 		</span>
-		<img src="/work/smartlivinghg/images/print-01.jpg" class="work-image" alt="Smart Living packaging" loading="lazy" />
-		<img src="/work/smartlivinghg/images/print-02.jpg" class="work-image" alt="Smart Living packaging" loading="lazy" />
+		<is-land on:visible>
+			<img src="/work/smartlivinghg/images/print-01.jpg" class="work-image" alt="Smart Living packaging" loading="lazy" />
+		</is-land>
+		<is-land on:visible>
+			<img src="/work/smartlivinghg/images/print-02.jpg" class="work-image" alt="Smart Living packaging" loading="lazy" />
+		</is-land>
 	</div>
 
 	<div class="two-col-img-grid pagination">

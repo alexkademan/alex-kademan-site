@@ -7,47 +7,55 @@ let section = "work";
 ---
 
 <div class="whole-window whole-width-img">
-	<div class="whole-width-img-container">
-		
-		<img src="/work/sani-t/images/sani-t-header.jpg" class="work-image" alt="Sani-T background image" loading="lazy" />
-		<div class="centered-section">
-			<div class="main-column-wide">
-				<h1>Sani-t</h1>
+	<is-land on:visible>
+		<div class="whole-width-img-container">
+			<img src="/work/sani-t/images/sani-t-header.jpg" class="hero-image" alt="Sani-T background image" loading="lazy" />
+			<div class="centered-section">
+				<div class="main-column-wide">
+					<h1>Sani-t</h1>
+				</div>
 			</div>
-		</div>
 
-		<div class="header-logo-svg">
-			<div class="center-svg">
-				<div class="big-logo">
-					<sani-t-header></sani-t-header>
+			<div class="header-logo-svg">
+				<div class="center-svg">
+					<div class="big-logo">
+						<sani-t-header></sani-t-header>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</is-land>
 </div>
 
 <div class="main-column-wide">
-	<div class="two-col-grid">
-		<div class="left">
-			<h2>Lead Designer</h2>
+	<is-land on:visible>
+		<div class="two-col-grid description-copy">
+			<div class="left">
+				<h2>Lead Designer</h2>
+				<h1>Logo Design,<br />+ Branding</h1>
+			</div>
+			<div class="right">
+				<h2>Overview</h2>
+				<p>
+					We at Smart Living Home &amp; Garden developed a line of air purifiers. My responsibility was to develop an effective advertising push to get it into the wild. The look was kept light, breezy and clean, with a spiral motif to evoke the flow of clean air.
+				</p>
+			</div>
 
-			<h1>Logo Design,<br />+ Branding</h1>
 		</div>
-		<div class="right">
-			<h2>Overview</h2>
-			<p>
-				We at Smart Living Home &amp; Garden developed a line of air purifiers. My responsibility was to develop an effective advertising push to get it into the wild. The look was kept light, breezy and clean, with a spiral motif to evoke the flow of clean air.
-			</p>
-		</div>
-
-	</div>
+	</is-land>
 
 	<div class="two-col-img-grid">
-		<img src="/work/sani-t/images/sani-t-images-02.jpg" class="work-image" alt="San-t banner ad" loading="lazy" />
-		<img src="/work/sani-t/images/sani-t-images-01.jpg" class="work-image" alt="Sani-t modal layout" loading="lazy" />
+		<is-land on:visible>
+			<img src="/work/sani-t/images/sani-t-images-02.jpg" class="work-image" alt="San-t banner ad" loading="lazy" />
+		</is-land>
+		<is-land on:visible>
+			<img src="/work/sani-t/images/sani-t-images-01.jpg" class="work-image" alt="Sani-t modal layout" loading="lazy" />
+		</is-land>
 
 		<span class="wide">
-			<img src="/work/sani-t/images/promo-01.jpg" class="work-image" alt="Sani-T landing page header" loading="lazy" class="wide" />
+			<is-land on:visible>
+				<img src="/work/sani-t/images/promo-01.jpg" class="work-image" alt="Sani-T landing page header" loading="lazy" class="wide" />
+			</is-land>
 		</span>
 	</div>
 

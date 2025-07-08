@@ -7,58 +7,72 @@ let section = "work";
 ---
 
 <div class="whole-window whole-width-img">
-	<div class="whole-width-img-container">
-		
-		<img src="/work/fountain-fresh-plus/images/fountain-fresh-header.jpg" class="work-image" alt="Smart Living Laptop" loading="lazy" />
-		<div class="centered-section">
-			<div class="main-column-wide">
-				<h1>Fountain<br /> Fresh Plus</h1>
+	<is-land on:visible>
+		<div class="whole-width-img-container">		
+			<img src="/work/fountain-fresh-plus/images/fountain-fresh-header.jpg" class="hero-image" alt="Smart Living Laptop" loading="lazy" />
+			<div class="centered-section">
+				<div class="main-column-wide">
+					<h1>Fountain<br /> Fresh Plus</h1>
+				</div>
 			</div>
-		</div>
 
-		<div class="header-logo-svg">
-			<div class="center-svg">
-				<div class="big-logo">
-					<fountain-fresh-header></fountain-fresh-header>
+			<div class="header-logo-svg">
+				<div class="center-svg">
+					<div class="big-logo">
+						<fountain-fresh-header></fountain-fresh-header>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</is-land>
 </div>
 
 <div class="main-column-wide">
-	<div class="two-col-grid">
-		<div class="left">
-			<h2>Lead Designer</h2>
+	<is-land on:visible>
+		<div class="two-col-grid description-copy">
+			<div class="left">
+				<h2>Lead Designer</h2>
 
-			<h1>Logo Design,<br />Packaging,<br />+ Branding</h1>
+				<h1>Logo Design,<br />Packaging,<br />+ Branding</h1>
+			</div>
+			<div class="right">
+				<h2>Overview</h2>
+				<p>
+					I created the logo, label and box for Smart Living Home &amp; Garden's water purifying solution called Fountain Fresh Plus.
+				</p>
+			</div>
 		</div>
-		<div class="right">
-			<h2>Overview</h2>
-			<p>
-				I created the logo, label and box for Smart Living Home &amp; Garden's water purifying solution called Fountain Fresh Plus.
-			</p>
-		</div>
-	</div>
+	</is-land>
 	<div class="two-col-img-grid">
 		<span class="wide">
-			<img src="/work/fountain-fresh-plus/images/ff-action-shot.jpg" class="work-image" alt="Fountain Fresh Plus bottle" loading="lazy" class="wide" />
+			<is-land on:visible>
+				<img src="/work/fountain-fresh-plus/images/ff-action-shot.jpg" class="work-image" alt="Fountain Fresh Plus bottle" loading="lazy" class="wide" />
+			</is-land>
 		</span>
 		
 		<div class="wide three-col cedar-crest-3-col">
 			<div class="three-col-column col-1">
-				<img src="/work/fountain-fresh-plus/images/bottle-photo-4.jpg" class="work-image" alt="Fountain Fresh Plus bottle" loading="lazy" />
+				<is-land on:visible>
+					<img src="/work/fountain-fresh-plus/images/bottle-photo-4.jpg" class="work-image" alt="Fountain Fresh Plus bottle" loading="lazy" />
+				</is-land>
 			</div>
 			<div class="three-col-column col-2">
-				<img src="/work/fountain-fresh-plus/images/bottle-photo-3.jpg" class="work-image" alt="Fountain Fresh Plus bottle" loading="lazy" />
+				<is-land on:visible>
+					<img src="/work/fountain-fresh-plus/images/bottle-photo-3.jpg" class="work-image" alt="Fountain Fresh Plus bottle" loading="lazy" />
+				</is-land>
 			</div>
 			<div class="three-col-column col-3">				
-				<img src="/work/fountain-fresh-plus/images/bottle-photo-1.jpg" class="work-image" alt="Fountain Fresh Plus bottle" loading="lazy" />
+				<is-land on:visible>
+					<img src="/work/fountain-fresh-plus/images/bottle-photo-1.jpg" class="work-image" alt="Fountain Fresh Plus bottle" loading="lazy" />
+				</is-land>
 			</div>
 		</div>
-
-		<img src="/work/fountain-fresh-plus/images/ff-label.jpg" class="work-image" alt="Fountain Fresh Plus label" loading="lazy" />
-		<img src="/work/fountain-fresh-plus/images/ff-box.jpg" class="work-image" alt="Fountain Fresh Plus box" loading="lazy" />
+		<is-land on:visible>
+			<img src="/work/fountain-fresh-plus/images/ff-label.jpg" class="work-image" alt="Fountain Fresh Plus label" loading="lazy" />
+		</is-land>
+		<is-land on:visible>
+			<img src="/work/fountain-fresh-plus/images/ff-box.jpg" class="work-image" alt="Fountain Fresh Plus box" loading="lazy" />
+		<is-land on:visible></is-land>
 		
 	</div>
 	<div class="two-col-img-grid pagination">

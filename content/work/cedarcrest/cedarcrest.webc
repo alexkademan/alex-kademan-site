@@ -7,44 +7,47 @@ let section = "work";
 ---
 
 <div class="whole-window whole-width-img">
-	<div class="whole-width-img-container">
-		
-		<img src="/work/cedarcrest/images/cedar-crest-grocery-store.jpg" class="work-image" alt="Cedar Crest Summerfest" loading="lazy" />
-		<div class="centered-section">
-			<div class="main-column-wide">
-				<h1>Cedar Crest<br />Ice Cream</h1>
+	<is-land on:visible>
+		<div class="whole-width-img-container">
+			<img src="/work/cedarcrest/images/cedar-crest-grocery-store.jpg" class="hero-image" alt="Cedar Crest Summerfest" loading="lazy" />
+			<div class="centered-section">
+				<div class="main-column-wide">
+					<h1>Cedar Crest<br />Ice Cream</h1>
+				</div>
 			</div>
 		</div>
-
-		
-	</div>
+	</is-land>
 </div>
 
 <div class="main-column-wide">
-	<div class="two-col-grid">
-		<div class="left">
-			<h2>Visual Branding</h2>
+	<is-land on:visible>
+		<div class="two-col-grid description-copy">
+			<div class="left">
+				<h2>Visual Branding</h2>
 
-			<h1>Logo Design,<br />+ Brand Management</h1>
-			<ul>
-				<li>Branding</li>
-				<li>Packaging Design</li>
-				<li>Print Design Services</li>
-			</ul>
-		</div>
-		<div class="right">
-			<h2>Overview</h2>
-			<p>
-				Cedar Crest came to us in need of a re-branding effort. We re-designed their logo, gave them a new color scheme, and designed all of their next wave of packaging and print collateral.
-			</p>
-		</div>
+				<h1>Logo Design,<br />+ Brand Management</h1>
+				<ul>
+					<li>Branding</li>
+					<li>Packaging Design</li>
+					<li>Print Design Services</li>
+				</ul>
+			</div>
+			<div class="right">
+				<h2>Overview</h2>
+				<p>
+					Cedar Crest came to us in need of a re-branding effort. We re-designed their logo, gave them a new color scheme, and designed all of their next wave of packaging and print collateral.
+				</p>
+			</div>
 
-	</div>
+		</div>
+	</is-land>
 
 
 	<div class="two-col-img-grid">
 		<span class="wide">
-			<img src="/work/cedarcrest/images/cc-branding.jpg" class="work-image" alt="Cedar Crest collage" loading="lazy" class="wide" />
+			<is-land on:visible>
+				<img src="/work/cedarcrest/images/cc-branding.jpg" class="work-image" alt="Cedar Crest collage" loading="lazy" class="wide" />
+			</is-land>
 		</span>
 
 		<div class="wide three-col cedar-crest-3-col">
@@ -59,37 +62,48 @@ let section = "work";
 			</div>
 		</div>
 	</div>
+	
+	<is-land on:visible>
+		<div class="two-col-grid description-copy">
+				<div class="left">
+					<h2>Visual Branding</h2>
 
-	<div class="two-col-grid">
-		<div class="left">
-			<h2>Visual Branding</h2>
-
-			<h1>Commissioned Photography<br />+ Photo Re-Touching</h1>
-			<ul>
-				<li>Commissioned Studio Photography</li>
-				
-			</ul>
+					<h1>Commissioned Photography<br />+ Photo Re-Touching</h1>
+					<ul>
+						<li>Commissioned Studio Photography</li>
+					</ul>
+				</div>
+				<div class="right">
+					<h2>Overview</h2>
+					<p>
+						This client required a lot of studio photography, and even more time spent re-touching to make everything look perfect.
+					</p>
+					<p>
+						Despite working with top-notch food stylists and excellent photographers, the ice cream and sherbet that we had photographed still needed to be meticulously worked in Photoshop. In order to prepare for all future design work, we needed to put in the time to make each image look more real than real.
+					</p>
+				</div>
 		</div>
-		<div class="right">
-			<h2>Overview</h2>
-			<p>
-				This client required a lot of studio photography, and even more time spent re-touching to make everything look perfect.
-			</p>
-			<p>
-				Despite working with top-notch food stylists and excellent photographers, the ice cream and sherbet that we had photographed still needed to be meticulously worked in Photoshop. In order to prepare for all future design work, we needed to put in the time to make each image look more real than real.
-			</p>
-		</div>
-	</div>
+	</is-land>
 
 	<div class="two-col-img-grid">
 		<span class="wide">
-			<img src="/work/cedarcrest/images/cc-scoops.jpg" class="work-image" alt="Cedar Crest scoops" loading="lazy" class="wide" />
+			<is-land on:visible>
+				<img src="/work/cedarcrest/images/cc-scoops.jpg" class="work-image" alt="Cedar Crest scoops" loading="lazy" class="wide" />
+			</is-land>
 		</span>
 
-		<img src="/work/cedarcrest/images/cc-pint.jpg" class="work-image" alt="Cedar Crest pints" loading="lazy" />
-		<img src="/work/cedarcrest/images/cc-freezer.jpg" class="work-image" alt="Cedar Crest freezer" loading="lazy" />
-		<img src="/work/cedarcrest/images/cc-truck.jpg" class="work-image" alt="Cedar Crest truck" loading="lazy" />
-		<img src="/work/cedarcrest/images/cc-sherbet.jpg" class="work-image" alt="Cedar Crest sherbet" loading="lazy" />
+		<is-land on:visible>
+			<img src="/work/cedarcrest/images/cc-pint.jpg" class="work-image" alt="Cedar Crest pints" loading="lazy" />
+		</is-land>
+		<is-land on:visible>
+			<img src="/work/cedarcrest/images/cc-freezer.jpg" class="work-image" alt="Cedar Crest freezer" loading="lazy" />
+		</is-land>
+		<is-land on:visible>
+			<img src="/work/cedarcrest/images/cc-truck.jpg" class="work-image" alt="Cedar Crest truck" loading="lazy" />
+		</is-land>
+		<is-land on:visible>
+			<img src="/work/cedarcrest/images/cc-sherbet.jpg" class="work-image" alt="Cedar Crest sherbet" loading="lazy" />
+		</is-land>
 	</div>
 	<div class="two-col-img-grid pagination">
 		<div class="previous">

@@ -7,47 +7,53 @@ let section = "work";
 ---
 
 <div class="whole-window whole-width-img">
-	<div class="whole-width-img-container">
-		
-		<img src="/work/gauthier/images/gauthier-header.jpg" class="work-image" alt="Gauthier surgical tools on display" loading="lazy" />
-		<div class="centered-section">
-			<div class="main-column-wide">
-				<h1>Gauthier<br />Biomedical</h1>
+	<is-land on:visible>
+		<div class="whole-width-img-container">
+			<img src="/work/gauthier/images/gauthier-header.jpg" class="work-image" alt="Gauthier surgical tools on display" loading="lazy" />
+			<div class="centered-section">
+				<div class="main-column-wide">
+					<h1>Gauthier<br />Biomedical</h1>
+				</div>
 			</div>
 		</div>
-
-		
-	</div>
+	</is-land>
 </div>
 
 <div class="main-column-wide">
-	<div class="two-col-grid">
-		<div class="left">
-			<h2>Print Collateral</h2>
+	<is-land on:visible>
+		<div class="two-col-grid description-copy">
+			<div class="left">
+				<h2>Print Collateral</h2>
 
-			<h1>Catalog,<br />Tradeshow Signage,<br />+ Print Ads</h1>
-			<ul>
-				<li>Print Ad Campaigns</li>
-				<li>Catalog layout</li>
-				<li>Tradeshow Signage</li>
-			</ul>
-		</div>
-		<div class="right">
-			<h2>Overview</h2>
-			<p>
-				I was a part of the team that designed Gauthier Biomedical's print catalog, and created several of their print advertising campaigns. We also created their tradeshow signage.
-			</p>
-		</div>
+				<h1>Catalog,<br />Tradeshow Signage,<br />+ Print Ads</h1>
+				<ul>
+					<li>Print Ad Campaigns</li>
+					<li>Catalog layout</li>
+					<li>Tradeshow Signage</li>
+				</ul>
+			</div>
+			<div class="right">
+				<h2>Overview</h2>
+				<p>
+					I was a part of the team that designed Gauthier Biomedical's print catalog, and created several of their print advertising campaigns. We also created their tradeshow signage.
+				</p>
+			</div>
 
-	</div>
+		</div>
+	</is-land>
 
 
 	<div class="two-col-img-grid">
-		
-		<img src="/work/gauthier/images/gauthier-ad1.jpg" class="work-image" alt="Gauthier print advertisement" loading="lazy" />
-		<img src="/work/gauthier/images/gauthier-tradeshow.jpg" class="work-image" alt="Gauthier tradeshow signage" loading="lazy" />
+		<is-land on:visible>
+			<img src="/work/gauthier/images/gauthier-ad1.jpg" class="work-image" alt="Gauthier print advertisement" loading="lazy" />
+		</is-land>
+		<is-land on:visible>
+			<img src="/work/gauthier/images/gauthier-tradeshow.jpg" class="work-image" alt="Gauthier tradeshow signage" loading="lazy" />
+		</is-land>
 		<span class="wide">
-			<img src="/work/gauthier/images/gauthier-catalog2.jpg" class="work-image" alt="Gauthier full line catalog" loading="lazy" class="wide" />
+			<is-land on:visible>
+				<img src="/work/gauthier/images/gauthier-catalog2.jpg" class="work-image" alt="Gauthier full line catalog" loading="lazy" class="wide" />
+			<is-land on:visible>
 		</span>
 	</div>
 

@@ -396,6 +396,29 @@ button:hover {
 	top: .3em;
 }
 
+is-land .work-image,
+is-land .hero-image {
+	opacity: 0;
+	/* property name | duration | easing function | delay */
+	transition: all .75s ease-in-out .2s;
+}
+
+is-land[ready] .work-image,
+is-land[ready] .hero-image {
+	opacity: 1;
+}
+
+is-land .description-copy {
+	opacity: 0;
+	transform: translateY(2%);
+	transition: all .75s ease-out .5s;
+}
+
+is-land[ready] .description-copy {
+	opacity: 1;
+	transform: translateX(0);
+}
+
 @keyframes fadeInLink {
 	0% {
 		opacity: 0;
