@@ -2,6 +2,11 @@ import pluginWebc from "@11ty/eleventy-plugin-webc";
 import { InputPathToUrlTransformPlugin } from "@11ty/eleventy";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
+import EleventyPluginIcons from 'eleventy-plugin-icons';
+
+import { PostsByCategory } from './_collections/posts-by-category.js';
+import { Posts } from './_collections/posts.js';
+
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 export default function(eleventyConfig) {
 	eleventyConfig.ignores.add("README.md");
@@ -31,6 +36,10 @@ export default function(eleventyConfig) {
 			pictureAttributes: {}
 		},
 	});
+
+	/* Collections */
+	eleventyConfig.addCollection('posts', Posts);
+	eleventyConfig.addCollection('postsByCategory', PostsByCategory);
 
 	eleventyConfig.addPassthroughCopy("./content/fonts/DMSerifDisplay-Regular.woff2");
 	eleventyConfig.addPassthroughCopy("./content/fonts/LibreCaslonText-Bold.woff2");
@@ -73,5 +82,7 @@ export const config = {
 		input: "content",          // default: "."
 		includes: "../_includes",  // default: "_includes"
 		data: "../_data",          // default: "_data"
-	}
+	},
+	htmlTemplateEngine: 'webc',
+	markdownTemplateEngine: 'njk'
 };

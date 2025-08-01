@@ -1,9 +1,11 @@
 ---
-title: "My First Post"
-date: "2025-03-25"
-tags: ['eleventy', 'blog', 'work']
+title: THIS is the first post. I'm borrowing the content for the time being.
+description: Placeholder description for future posts to display here.
+category: owl
+date: 2024-07-23T12:00:00.000Z
+tags: ["owl", "post"]
 ---
 
-# My first post is supposed to show up now
+## Travel ✈️
 
-This is a test of the post feature in eleventy.
+lorem ipsum.

@@ -1,0 +1,79 @@
+---js
+{
+	layout: "default",
+	title: "Posts",
+	pagination: {
+		data: 'collections.posts',
+		size: 10,
+		alias: "posts",
+		reverse: true,
+	},
+	permalink: (d) => {
+		let result = '/posts/';
+		if (d.pagination.pageNumber > 0) {
+			result += `page-${d.pagination.pageNumber}/`;
+		}
+		return result;
+	},
+	rightNow: (new Date()).toLocaleString(),
+	eleventyExcludeFromCollections: true
+}
+---
+<section class="posts-page page-full">	
+	<h1 @text="title"></h1>
+	<p @text="rightNow"></p>
+
+	<category-list></category-list>
+	
+	<card-list>
+		<post-card webc:for="post of posts" :@post="post"></post-card>
+	</card-list>
+
+	<ul>
+		<script webc:type="render" webc:is="template">
+			function () {
+				return this.collections.post.map((p) => `<li>
+					<a href="${p.url}">
+						<hgroup>
+							<h2>${p.data.title}</h2>
+							<h4>${p.data.description}</h4>
+							
+						</hgroup>
+						<p>${p.data.tags}</p>
+						${p.data.date.getMonth()} -
+						${p.data.date.getDate()} - 
+						${p.data.date.getFullYear()}<br />
+					</a>
+				</li>`);
+			}
+		</script>
+	</ul>
+
+	<ul>
+		<script webc:type="js">
+			this.collections.post.map((p) => `<li>
+			<a href="${p.url}">${p.data.title}</a>
+			<div>${p.data.description}</div>
+			</li>`);
+		</script>
+	</ul>
+
+	<ul>
+		<script webc:type="render" webc:is="template">
+			function () {
+				return this.collections.post.map((p) => `<li>
+					<a href="${p.url}">
+						<p>
+							${p.data.title}<br />
+							${p.data.date.getMonth()} -
+							${p.data.date.getDate()} - 
+							${p.data.date.getFullYear()} - <br /><br />
+						</p>
+					</a>
+
+					${new Date("16 June 2025 14:48 CST").toISOString()}<br>
+				</li>`);
+			}
+		</script>
+	</ul>
+</section>

@@ -1,0 +1,14 @@
+{
+	"fan": {
+		"name": "Fan",
+		"icon": "simple-icons:angular"
+	},
+	"owl": {
+		"name": "Owl",
+		"icon": "plane"
+	},
+	"life": {
+		"name": "Life",
+		"icon": "sprout"
+	}
+}

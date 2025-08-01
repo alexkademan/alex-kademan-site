@@ -1,0 +1,28 @@
+<a webc:root="override" :href="post.page.url" :aria-label="post.data.title">
+	<h2 @text="post.data.title"></h2>
+	<p @text="post.data.description"></p>
+	<small>
+		<date :@value="post.data.date"></date>
+	</small>
+	<category-chip :@category-name="post.data.category"></category-chip>
+
+	<p @text="post.data.category"></p>
+	<script>
+		// const postClasses = !this.post.data.draft ? 'post-card' : 'post-card draft';
+		`<card class="post-card">
+			<div class="heading">
+				<h2 @text="post.data.title"></h2>??????????
+				<small>
+					<date :@value="post.data.date"></date>
+				</small>
+			</div>
+
+			<p @text="post.data.description"></p>
+
+			<category-chip :@category-name="post.data.category"></category-chip>
+		</card>`;
+	</script>
+</a>
+
+<style>
+</style>

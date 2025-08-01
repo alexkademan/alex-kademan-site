@@ -1,0 +1,5 @@
+<script webc:type="js">
+	// this.helpers.icon(this.iconName, { class: this.iconClass });
+	`<icon>${this.iconName}</icon>`;
+	// 'hello world?';
+</script>
