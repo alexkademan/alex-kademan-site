@@ -1,3 +1,51 @@
+/* https://perceptualpalettes.alexdunn.au/?c=Brand%23f4f1de%2CSecondary%23e07a5f%2CTertiary%233d405b%2CNeutral%2381b29a&l=90%2C80%2C70%2C60%2C35%2C21%2C12%2C6%2C2%2C1%2C0.5&n=false&i=false */
+:root {
+	--brand-100: #ebe8d5;
+	--brand-050: #f6f4e5;
+	--brand-200: #dddac9;
+	--brand-300: #cfccbc;
+	--brand-400: #a2a093;
+	--brand-500: #807f75;
+	--brand-600: #63615a;
+	--brand-700: #464540;
+	--brand-800: #272724;
+	--brand-900: #1a1a18;
+	--brand-950: #10100e;
+	--secondary-050: #fcf1ef;
+	--secondary-100: #f8e3dd;
+	--secondary-200: #f5d3ca;
+	--secondary-300: #f1c1b4;
+	--secondary-400: #e3886f;
+	--secondary-500: #bd6750;
+	--secondary-600: #914f3e;
+	--secondary-700: #68392c;
+	--secondary-800: #3a2019;
+	--secondary-900: #271510;
+	--secondary-950: #180d0a;
+	--tertiary-050: #f3f3f5;
+	--tertiary-100: #e7e7ea;
+	--tertiary-200: #d9dadf;
+	--tertiary-300: #cacbd2;
+	--tertiary-400: #9d9fad;
+	--tertiary-500: #7b7d90;
+	--tertiary-600: #5d6076;
+	--tertiary-700: #41445e;
+	--tertiary-800: #242636;
+	--tertiary-900: #181923;
+	--tertiary-950: #0e0f16;
+	--neutral-050: #eff5f2;
+	--neutral-100: #ddeae4;
+	--neutral-200: #cadfd5;
+	--neutral-300: #b5d2c4;
+	--neutral-400: #7baa93;
+	--neutral-500: #618674;
+	--neutral-600: #4b6759;
+	--neutral-700: #354a40;
+	--neutral-800: #1e2924;
+	--neutral-900: #141b17;
+	--neutral-950: #0c110e;
+}
+
 :root {
 	--font-family: system-ui, sans-serif;
 
@@ -210,7 +258,6 @@ button:hover {
 	display: block;
 	width: 235px;
 	padding: .5em .5em 0;
-	/* background-color: deeppink; */
 }
 
 .main-header .home object {

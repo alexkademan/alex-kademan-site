@@ -1,6 +1,6 @@
 <script webc:type="js">
 	const items = [
-		`<li><category-chip @category-name="All Posts"></category-chip></li>`,
+		`<li><category-chip @category-name="All"></category-chip></li>`,
 	];
 
 	const keys = Object.keys(this.$data.categories)
@@ -10,25 +10,19 @@
 		.sort((a, b) => a.localeCompare(b));
 	for (const key of keys) {
 		items.push(
-			`<li><category-chip @category-name="${key}" @link="true"></category-chip></li>`
+			`<li class="category"><category-chip @category-name="${key}" @link="true"></category-chip></li>`
 		);
 	}
 
-	`<nav><ul>${items.join('')}</ul></nav>`;
+	`<nav><ul class="categories">${items.join('')}</ul></nav>`;
 </script>
 
 <style webc:scoped>
-	:host {
-		display: flex;
-		flex-direction: column;
-		margin-block: var(--default-spacing);
-	}
-
-	ul {
+	.categories {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		gap: var(--default-spacing);
+		gap: .25em;
 
 		list-style-type: none;
 		padding: 0;

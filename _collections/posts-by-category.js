@@ -18,8 +18,6 @@ export const PostsByCategory = (collection) => {
 		const category = post.data.category;
 
 		if (categories.has(category)) {
-			// console.log('posts-by-category.js');
-			// console.log(post.data.category);
 			const existing = categories.get(category);
 			categories.set(category, [...existing, post]);
 		} else {

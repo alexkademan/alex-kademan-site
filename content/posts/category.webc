@@ -17,13 +17,12 @@
 	eleventyExcludeFromCollections: true
 }
 ---
+<article class="main-column">
+	<h1 @text="title"></h1>
 
-<h1 @text="title"></h1>
+	<category-list></category-list>
 
-<category-list></category-list>
-
-<card-list>
-	<post-card webc:for="post of category.items" :@post="post"></post-card>
-</card-list>
-
-<paginator :@paginator="category"></paginator>
+	<card-list>
+		<post-card webc:for="post of category.items" :@post="post"></post-card>
+	</card-list>
+</article>

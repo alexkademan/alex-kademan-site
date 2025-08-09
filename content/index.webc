@@ -27,12 +27,10 @@ let section = "work";
 <section class="work-page page-full">
 	<h1 @raw="title" class="page-title visually-hidden"></h1>
 	<work-grid></work-grid>
-	
 </section>
 
 
 <style>
-
 	@keyframes fadeInH1 {
 		from {
 			transform: translateY(10%);
