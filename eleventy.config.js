@@ -43,6 +43,8 @@ export default function(eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy("./content/fonts/DMSerifDisplay-Regular.woff2");
 	eleventyConfig.addPassthroughCopy("./content/fonts/LibreCaslonText-Bold.woff2");
+	eleventyConfig.addPassthroughCopy("./content/fonts/LibreCaslonText-Italic.woff2");
+	eleventyConfig.addPassthroughCopy("./content/fonts/LibreCaslonText-Regular.woff2");
 	eleventyConfig.addPassthroughCopy("./content/fonts/Lato-Light.woff2");
 	eleventyConfig.addPassthroughCopy("./content/fonts/Lato-LightItalic.woff2");
 	eleventyConfig.addPassthroughCopy("./content/fonts/Lato-Regular.woff2");
@@ -56,6 +58,8 @@ export default function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./content/css/reset.css");
 	eleventyConfig.addPassthroughCopy("./content/css/base.css");
 	eleventyConfig.addPassthroughCopy("./content/css/work.css");
+	
+	eleventyConfig.addPassthroughCopy("./content/js/masthead.js");
 	// eleventyConfig.addBundle("css");
 	
 	eleventyConfig.setServerOptions({

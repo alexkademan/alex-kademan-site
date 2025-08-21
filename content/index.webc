@@ -2,7 +2,7 @@
 // Initialize page data in JavaScript front matter
 let section = "work";
 ---
-
+<div class="whole-page">
 <div class="home-title">
 	<div class="main-column-wide">
 
@@ -13,7 +13,7 @@ let section = "work";
 			<div class="col-2">
 				<span class="intro-text">
 					<p>
-						I am a senior designer who specializes in both web and print design. My nearly two decades of experience inform my approach to my work with a deep foundation of wisdom, paired with an ever curious eye to future developments in the industry.
+						I am a senior designer who specializes in both web and print design. My two decades of experience inform my approach to my work with a deep foundation of wisdom, paired with an ever curious eye to future developments in the industry.
 					</p>
 					<p>
 						I build things with care, and love what I build. 
@@ -22,6 +22,7 @@ let section = "work";
 			</div>
 		</div>
 	</div>
+</div>
 </div>
 
 <section class="work-page page-full">
@@ -51,6 +52,7 @@ let section = "work";
 		}
 
 		.intro-text {
+			font-family: lato;
 			display: inline-block;
 			opacity: 0;
 			animation: fadeInH1 1.2s 1s forwards;
@@ -130,7 +132,7 @@ let section = "work";
 		background-color: var(--deep-slate-blue);
 		position: absolute;
 		top: 0;
-		transition: .75s ease-in-out;
+		transition: .2	5s ease-in-out;
 		transform: scale(1.1);
 	}
 	.work-link .work-image-back svg {
