@@ -25,7 +25,7 @@
 
 		<!-- Google tag (gtag.js) -->
 		<script webc:keep async src="https://www.googletagmanager.com/gtag/js?id=G-2244V623KZ"></script>
-		<script>
+		<script webc:keep>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
