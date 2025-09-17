@@ -190,8 +190,8 @@ let section = "resume";
 
 		.tasks {
 			/* ul class="tasks" */
-			padding: 0 0 0 1em;
-			list-style: none;
+			padding: 0 0 0 1.25em;
+			list-style: disc;
 
 			li {
 				padding-bottom: .5em;
@@ -200,8 +200,7 @@ let section = "resume";
 			li::marker {
 				content: "• ";
 				display: inline-block;
-				background-color: deeppink;
-				margin-left: -1em;
+				margin-left: -1.25em;
 				font-size: 1.2em;
 			}
 		}
@@ -209,7 +208,7 @@ let section = "resume";
 
 	.skills-list {
 		display: flex;
-		flex-direction: row;
+		flex-wrap: wrap;
 		font-size: smaller;
 		align-content: start;
 		gap: .5em;
@@ -221,6 +220,7 @@ let section = "resume";
 		background-color: transparent;
 		border: 1px #CCC solid;
 		border-radius: .25em;
+		text-wrap: nowrap;
 	}
 
 	.skills-list li svg {
