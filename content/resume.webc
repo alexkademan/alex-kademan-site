@@ -114,14 +114,6 @@ let section = "resume";
 	.summary p:last-child {
 		padding-bottom: 0;
 	}
-
-	.timeline {
-		display: block;
-		margin: 0 1em 0 .5em;
-		padding-left: 1.75em;
-		border-left: 1px var(--terra-cotta) solid;
-		position: relative
-	}
 	
 	.timeline::before {
 		content: "";
@@ -145,62 +137,74 @@ let section = "resume";
 		height: .6em;
 	}
 
-	.timeline .bullet {
-		font-size: smaller;
-		color: #CCC;
-	}
-
-	.timeline .job {
-		position: relative;
-		margin-bottom: 1.5em;
-	} 
-
-	.timeline .job:last-child {
-		margin-bottom: 0;
-	}
-
-	.timeline .job .title {
-		padding: 0 0 .75em;
-	}
-
-	.timeline .job::before {
-		position: absolute;
-		top: 1.85em;
-		left: -2.25em;
-		content: "";
+	.timeline {
 		display: block;
-		width: 1em;
-		height: 1em;
-		border-radius: 2em;
-		background-color: var(--terra-cotta);
-	}
+		list-style: none;
+		margin: 0 1em 0 .5em;
+		padding-left: 1.75em;
+		border-left: 1px var(--terra-cotta) solid;
+		position: relative;
 
-	.timeline .job .time {
-		font-size: smaller;
-		display: inline-block;
-		line-height: 1em;
-		padding-top: 0;
-		padding-bottom: .5em;
-	}
+		.bullet {
+			font-size: smaller;
+			color: #CCC;
+		}
+		.job {
+			position: relative;
+			margin-bottom: 1.5em;
 
-	.timeline .job h3 {
-		padding: 0 0 .125em;
-	}
+			.title {
+				padding: 0 0 .75em
+			}
+		}
+		.job:before {
+			position: absolute;
+			top: 1.85em;
+			left: -2.25em;
+			content: "";
+			display: block;
+			width: 1em;
+			height: 1em;
+			border-radius: 2em;
+			background-color: var(--terra-cotta);
+		}
+		.job:last-child {
+			margin-bottom: 0;
 
-	.timeline .job h4 {
-		font-family: lato;
-		font-size: 1.0em;
+			.time {
+				font-size: smaller;
+				display: inline-block;
+				line-height: 1em;
+				padding-top: 0;
+				padding-bottom: .5em;
+			}
 
-	}
+			h3 {
+				padding: 0 0 .125em;
+			}
+			h4 {
+				font-family: lato;
+				font-size: 1.0em;
+			}
+		}
 
-	.timeline .tasks {
-		padding: 0 0 0 1.25em;
-		list-style-type: circle;
-		list-style-type: disc;
-	}
+		.tasks {
+			/* ul class="tasks" */
+			padding: 0 0 0 1em;
+			list-style: none;
 
-	.timeline .tasks li {
-		padding-bottom: .5em;
+			li {
+				padding-bottom: .5em;
+			}
+
+			li::marker {
+				content: "• ";
+				display: inline-block;
+				background-color: deeppink;
+				margin-left: -1em;
+				font-size: 1.2em;
+			}
+		}
 	}
 
 	.skills-list {
