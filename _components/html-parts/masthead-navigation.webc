@@ -34,10 +34,14 @@
 		display: inline-block;
 		font-family: lato;
 		height: 3em;
-		align-content: center;		
+		align-content: center;
 
 		.main-nav {
 			display: none;
+		}
+
+		ul {
+			list-style: none;
 		}
 
 		a {

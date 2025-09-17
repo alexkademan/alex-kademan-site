@@ -36,6 +36,9 @@
 			padding: 0;
 			position: relative;
 		}
+		.badge {
+			transition: all .14s cubic-bezier(.8, 1.76, .32, 1.74);
+		}
 		.masthead-logo-badge1,
 		.masthead-logo-badge2 {
 			display: inline-block;
@@ -44,7 +47,6 @@
 			padding: .5rem 0;
 			margin: 0;
 			transition: fill .125s ease-in;
-			fill: var(--brand-500);
 			animation-delay: 100ms;
 			animation-duration: .5s;
 
@@ -68,7 +70,7 @@
 			position: absolute;
 			left: 0;
 			top: 0;
-			fill: var(--brand-400);
+			fill: var(--brand-300);
 			animation-delay: 10ms;
 			transition: fill .2s ease-out;
 
@@ -78,7 +80,7 @@
 			}
 		}
 		.masthead-logo-name {
-			fill: var(--brand-400);
+			fill: var(--brand-200);
 			transition: fill .2s ease-in;
 
 			path {
@@ -98,8 +100,13 @@
 
 		.masthead-logo-name,
 		.masthead-logo-badge2 {
-			fill: var(--brand-300);
+			fill: var(--brand-400);
+			fill: white;
 			transition: fill .2s ease-in;
+		}
+
+		.badge {
+			transform: rotate(10deg) scale(1.1);
 		}
 	}
 

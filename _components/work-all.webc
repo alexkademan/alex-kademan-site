@@ -141,7 +141,6 @@
 	}
 	.work-image {
 		width: 100%;
-		transition: 0.3s;
 		filter: contrast(1.2) saturate(0);
 	}
 
@@ -166,7 +165,6 @@
 	.work-link .work-image-back {
 		display: flex;
 		width: 100%;
-		transition: 0.3s;
 		filter: contrast(1.2) saturate(0);
 	}
 
@@ -179,7 +177,6 @@
 		background-color: var(--deep-slate-blue);
 		position: absolute;
 		top: 0;
-		transition: .75s ease-in-out;
 		transform: scale(1.1);
 	}
 	.work-link .work-image-back svg {
@@ -200,6 +197,7 @@
 		}
 		.pll {
 			background-color: #60554b;
+			background-color: rgb(96, 85, 75);
 		}
 
 		.ff {

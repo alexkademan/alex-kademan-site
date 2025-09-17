@@ -5,6 +5,7 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import EleventyPluginIcons from 'eleventy-plugin-icons';
 
 import { PostsByCategory } from './_collections/posts-by-category.js';
+import { PostsByCategoryWork } from './_collections/posts-by-category-work.js';
 import { Posts } from './_collections/posts.js';
 
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
@@ -40,6 +41,7 @@ export default function(eleventyConfig) {
 	/* Collections */
 	eleventyConfig.addCollection('posts', Posts);
 	eleventyConfig.addCollection('postsByCategory', PostsByCategory);
+	eleventyConfig.addCollection('postsByCategoryWork', PostsByCategoryWork);
 
 	eleventyConfig.addPassthroughCopy("./content/fonts/DMSerifDisplay-Regular.woff2");
 	eleventyConfig.addPassthroughCopy("./content/fonts/LibreCaslonText-Bold.woff2");

@@ -122,7 +122,7 @@ html,
 body {
 	padding: 0;
 	margin: 0 auto;
-	font-family: caslon-regular;
+	font-family: 'lato';
 	font-size: 1.1em;
 	line-height: 1.4em;
 	color: var(--deep-slate-blue);
@@ -158,6 +158,7 @@ h6 {
 	color: var(--muted-sage-blue);
 	line-height: 1.2em;
 	padding: .2em 0 .4em;
+	margin-bottom: 0;
 }
 
 h1 {
@@ -176,6 +177,7 @@ p {
 	padding: 0 0 .8em;
 	/* max-width: 40rem; */
 	line-height: 1.6em;
+	margin: 0;
 }
 
 em,
@@ -186,17 +188,7 @@ i {
 footer {
 	font-size: smaller;
 }
-
-button {
-	border: 2px var(--deep-slate-blue) solid;
-	font-size: 1em;
-	font-family: 'lato-regular', sans-serif;
-	font-weight: normal;
-	background-color: transparent;
-	padding: .5em 1em;
-	transition: all .2s ease-in-out;
-}
-
+ 
 
 .two-col-grid button {
 	margin-top: 1.8em;

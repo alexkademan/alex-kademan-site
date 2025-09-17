@@ -2,7 +2,7 @@
 title: Styleguide for this website
 description: Catalog of all the design elements for this website as they get developed.
 category: design
-date: 2025-08-08T12:00:00.000Z
+date: 2025-08-01T12:00:00.000Z
 ---
 
 ## Update 2/24/2024

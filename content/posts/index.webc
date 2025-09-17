@@ -10,6 +10,7 @@
 	},
 	permalink: (d) => {
 		let result = '/posts/';
+		
 		if (d.pagination.pageNumber > 0) {
 			result += `page-${d.pagination.pageNumber}/`;
 		}

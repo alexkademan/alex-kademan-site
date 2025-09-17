@@ -35,7 +35,6 @@
 	</head>
 	<body>
 		<masthead :section="section"></masthead>
-		<!-- <h1 class="main-column" @text="metadata.description"></h1> -->
 		<div  @attributes="({ class: section+' white-bg' })">
 			<main @raw="content"></main>
 		</div>

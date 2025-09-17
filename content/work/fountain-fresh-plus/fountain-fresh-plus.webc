@@ -1,6 +1,6 @@
 ---js
 function permalink(data) {
-	return "/work/fountain-fresh-plus/";
+	return "/workOLD/fountain-fresh-plus/";
 }
 let title = "Fountain Fresh +";
 let section = "work";
@@ -9,7 +9,7 @@ let section = "work";
 <div class="whole-window whole-width-img">
 	<is-land on:visible>
 		<div class="whole-width-img-container">		
-			<img src="/work/fountain-fresh-plus/images/fountain-fresh-header.jpg" class="hero-image" alt="Smart Living Laptop" loading="lazy" />
+			<img src="/work/fountain-fresh-plus/images/fountain-fresh-header.jpg" class="hero-image" alt="Fountain fresh background" loading="lazy" />
 			<div class="centered-section">
 				<div class="main-column-wide">
 					<h1>Fountain<br /> Fresh Plus</h1>

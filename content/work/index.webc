@@ -1,0 +1,39 @@
+---js
+{
+	layout: "default",
+	pagination: {
+		data: 'collections.postsByCategoryWork',
+		size: 1,
+		alias: "category",
+	},
+	permalink: 'work/',
+	title: 'Work Posts',
+	eleventyExcludeFromCollections: true
+}
+---
+<section>
+	<h1 @text="title"></h1>
+	<work-card-list>
+		<work-card webc:for="post of category.items" :@post="post"></work-card>
+	</work-card-list>
+</section>
+
+<style webc:scoped>
+	:host {
+		padding: .5rem 1rem 5em;
+		margin: 0 auto;
+		width: 100%;
+		position: relative;
+
+		h1 {
+			display: none;
+		}
+	}
+
+	@media only screen and (min-width: 900px) {
+		:host {
+			max-width: 75rem;
+		}
+	}
+	
+</style>
